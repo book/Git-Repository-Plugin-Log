@@ -6,3 +6,14 @@ capability to write plugins) to 1.308. For earlier history, please
 consult the changelog for that distribution.
 
 {{$NEXT}}
+
+1.309 Sun Nov 3 2013
+        [ENHANCEMENTS]
+        - the mergetag key is now an array reference, to support
+          commits with multiple mergetag headers
+        [TESTS]
+        - tested using a bundle containing several very special cases
+          (see http://github.com/book/git-test-repo-tool/)
+        [PACKAGING]
+        - split into its own distribution as of Git-Repository 1.309
+          (and Git-Repository-Plugin-Log 1.309)
