@@ -29,7 +29,10 @@ ymEAoLdHJ9FRDENwKZsDD6XyhoDSAKYF
         },
         '442da3f58f803a06f948192cb8fadb68588fc54b' => {
             tree   => 'be53133188aa1dc3184ae9880eaf69537ad3ed5d',
-            parent => ['e7dc48c573c644902deda7be4dee9b5ae66b12c2'],
+            parent => [
+                '03710c6af0a29cc2a4601e709a1b1b60eefbe7d9',
+                'e7dc48c573c644902deda7be4dee9b5ae66b12c2'
+                ],
             subject =>
                 "Merge tag 'signed' of /data/home/book/src/CPAN/Git-Repository/t/repo",
             body => "signed tag = tag signé
