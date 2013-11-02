@@ -1,0 +1,8 @@
+Revision history for Git-Repository-Plugin-Log
+
+Git::Repository::Plugin::Log and support modules used to be packaged
+in the Git-Repository distribution from version 1.13 (which introduced
+capability to write plugins) to 1.308. For earlier history, please
+consult the changelog for that distribution.
+
+{{$NEXT}}
