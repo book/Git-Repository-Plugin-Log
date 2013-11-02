@@ -55,6 +55,7 @@ sub next {
     # the first two records are always the same, with --pretty=raw
     local $/ = "\n";
     my ( $header, $message, $extra ) = ( @records, '', '' );
+    chomp $header;
     my @headers = map { chomp; split / /, $_, 2 } split /^(?=\S)/m, $header;
     s/^ //gm for @headers;
     chomp( $message, $extra ) if exists $self->{record};
