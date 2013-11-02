@@ -13,7 +13,7 @@ for my $attr (
     author_localtime author_tz author_gmtime
     committer_localtime committer_tz committer_gmtime
     raw_message message subject body
-    gpgsig mergetag
+    gpgsig
     extra
     )
     )
@@ -21,9 +21,9 @@ for my $attr (
     no strict 'refs';
     *$attr = sub { return $_[0]{$attr} };
 }
-for my $attr (qw( parent )) {
+for my $attr (qw( parent mergetag )) {
     no strict 'refs';
-    *$attr = sub { return @{ $_[0]{$attr} } };
+    *$attr = sub { return @{ $_[0]{$attr} || [] } };
 }
 
 sub new {
@@ -32,7 +32,7 @@ sub new {
 
     # pick up key/values from the list
     while ( my ( $key, $value ) = splice @args, 0, 2 ) {
-        if ( $key eq 'parent' ) {
+        if ( $key =~ /^(?:parent|mergetag)$/ ) {
             push @{ $self->{$key} }, $value;
         }
         else {

@@ -41,7 +41,7 @@ Conflicts:
 \thello.txt
 ",
             extra    => '',
-            mergetag => 'object e7dc48c573c644902deda7be4dee9b5ae66b12c2
+            mergetag => [ 'object e7dc48c573c644902deda7be4dee9b5ae66b12c2
 type commit
 tag signed
 tagger Philippe Bruhat (BooK) <book@cpan.org> 1359158971 +0100
@@ -54,7 +54,7 @@ iEYEABECAAYFAlEDHrsACgkQn1HmV7l/FKkuQQCdG3wIAwOTnxC4LQ0nOdvdp8E0
 YWsAn28+jo5C5RGY1UKo58Gz9/6QqUpf
 =knDL
 -----END PGP SIGNATURE-----
-',
+' ],
         },
         'e7dc48c573c644902deda7be4dee9b5ae66b12c2' => {
             tree    => 'b85525f0c29fb9fe53131730643d7e4feef3574e',
@@ -91,7 +91,11 @@ YWsAn28+jo5C5RGY1UKo58Gz9/6QqUpf
         is( $log->body,     $commit->{body},     "commit $id body" );
         is( $log->extra,    $commit->{extra},    "commit $id extra" );
         is( $log->gpgsig,   $commit->{gpgsig},   "commit $id gpgsig" );
-        is( $log->mergetag, $commit->{mergetag}, "commit $id mergetag" );
+        is_deeply(
+            [ $log->mergetag ],
+            $commit->{mergetag} || [],
+            "commit $id mergetag"
+        );
     }
 
     plan tests => 7 * scalar keys %commit;
