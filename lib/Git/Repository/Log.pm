@@ -52,7 +52,7 @@ sub new {
 
     # author and committer details
     for my $who (qw( author committer )) {
-        $self->{$who} =~ /(.*) <(.*)> (.*) (([-+])(..)(..))/;
+        $self->{$who} =~ /^(.*) <(.*)> (.*) (([-+])(..)(..))$/;
         my @keys = ( "${who}_name", "${who}_email", "${who}_gmtime",
             "${who}_tz" );
         @{$self}{@keys} = ( $1, $2, $3, $4 );
