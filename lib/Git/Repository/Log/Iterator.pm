@@ -57,7 +57,7 @@ sub next {
     my ( $header, $message, $extra ) = ( @records, '', '' );
     chomp $header;
     my @headers = map { chomp; split / /, $_, 2 } split /^(?=\S)/m, $header;
-    s/^ //gm for @headers;
+    s/\n /\n/g for @headers;
     chomp( $message, $extra ) if exists $self->{record};
 
     # create the log object
