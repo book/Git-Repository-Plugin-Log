@@ -7,6 +7,12 @@ consult the changelog for that distribution.
 
 {{$NEXT}}
 
+1.310 Tue Nov 5 2013
+
+        [ENHANCEMENTS]
+        - Git::Repository::Log now properly handles commits where the
+          author or committer name is empty
+
 1.309 Sun Nov 3 2013
         [ENHANCEMENTS]
         - the mergetag key is now an array reference, to support
