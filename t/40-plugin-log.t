@@ -11,6 +11,7 @@ use Git::Repository;
 has_git('1.5.0.rc1');
 
 my $version = Git::Repository->version;
+diag "git version $version";
 
 # clean up the environment
 delete @ENV{qw( GIT_DIR GIT_WORK_TREE )};
