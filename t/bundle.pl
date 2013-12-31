@@ -1,185 +1,185 @@
 %commit = (
-  "0ae36f101c68fd82a5bb9845fdf99e3fc6ab369e" => {
+  "0da5342f6312940a08c31db6b14a3032cd5b4f2a" => {
     body => "",
     extra => "",
-    parent => [
-      "9be9b53c65ebf7c4f9d6de843619fd0990fb8d43",
-      "88df96b38e9861eab3af30a312d24a740f3defd2"
-    ],
-    subject => "Merge branch 'slave'",
-    tree => "fa85af1dc631f3f8d977aafe0253b1d02eb2c4c7"
-  },
-  "21a06f684ba48bdff19436074f991267c849afcf" => {
-    body => "signed tag\n\n# gpg: Signature made Tue Nov  5 06:32:38 2013 CET using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n",
-    extra => "",
+    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCMAAoJEOX2RRt2IcQDZacH/0qGZ7YOoQ+FmZ2yBEFhWlBL\nP/k+gk3CSHvg/br1M7kJfNl7wGSoAv1rez3kx/gUPxcBYVjtw3foTF4IO+xd8cpN\ntD7S6Bds4UVqihLarLW80NhVEb0Wit5E5xOsPn1gvVyJRq/lxQEz2/JglY4Y+c4n\n+W1jzaLrGZDR2JZbmGZ3qONXIbRToNeX89YFBdxez1ZkHGsEse+gK9wuVyyOBxvx\nu3Es5Hz9qQDgg6JdVub9/P/QwrodewOkErn80E4CiacXOyWwHUVk1RfRz16dJgYx\n3TIlNIDrnSU8vPnOfL10m8VpVaapIfs17LeRjQCT8FlATcdz/6GNmArvPo0/urA=\n=6U5E\n-----END PGP SIGNATURE-----",
     mergetag => [
-      "object f7c18a39ec24778012af208988bc23e6f1f3a636\ntype commit\ntag v1.0.0\ntagger Example Committer <committer\@example.com> 1383629558 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL2AAoJEOX2RRt2IcQDUBsIAKlseVblr9McHXa1Yt6k4pbr\nKfjwUEpVSpOoeTVCUbr5etrhFA7k7eUYVo0NtEyHZGpvKOHDPBvwjiQ2BWDXqGsA\nPXwGJEUQ/BV1vLoj2lF/VuZQ53Lr1JH49tjxDvC5jzVwLl5TTQVOm6zCS9GVmoT4\ninmDmQk6BKmFqFP4f2TxANXYuiOBKLPGKRdEEZ0PvodLhQEJ6tCIGjZjxx8qUH6e\ndcBj0DOQ/pdBKSls9NnWAsGhoDefILR1m3n1zd6aFBtIlhfT5HY4ZA9RQAjvXeL3\nU7LSjUPGoygsSUkISSrIDypGqlO1Dwt8bLP4gtrxu54D/YDQzp2lEXxMtY/297U=\n=tizV\n-----END PGP SIGNATURE-----"
+      "object 6656508287f92c541906764e0bd9fc4a096d7a52\ntype commit\ntag v1.0.3\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCMAAoJEOX2RRt2IcQD+rsH/i+CQHJnGunJia/GhQGrsi2C\n5d8yaN6Yx0WNRQ1Wj6Yh/PI3vzLt79JIesmefW/0nOzmFtF+NsLgLjsmxjnwuMO9\n1/u6uc9TBv9xshfJMyVj3KB0GRUyU00QE4vUKuy34KfR2CoQ0swHPSrN+H6UQfNh\ne5CJReb4orefQJKgShjgh0RG/ApdpIiQYMQzD9GFQ9Yk9YG8O+usOLLBvXTaG85R\nKNKapRhRr8cqSeQ6WHSGqLP7B3yj8gOR9/N3bc4JTtOScubXanVRCETc5mSPOgkE\nKpaXRF+Z8lGcBENWWmmv/ctlgnAQPCzuVwfdPBTCY+jUPzawxs2d5y7E/nCjgiE=\n=R6sc\n-----END PGP SIGNATURE-----"
     ],
     parent => [
-      "dd8437af8d1fa7c53de33db969ceceee8c1c153a",
-      "f7c18a39ec24778012af208988bc23e6f1f3a636"
-    ],
-    subject => "Merge tag 'v1.0.0'",
-    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
-  },
-  "3eee6394377f62106ddd207b68942676da1b18ea" => {
-    body => "",
-    extra => "",
-    mergetag => [
-      "object 7fa20ca61711a0109d431b1a479e3091c8ac9317\ntype commit\ntag v1.0.1\ntagger Example Committer <committer\@example.com> 1383629558 +0100\n\n\303\243\302\201\302\223\303\243\302\202\302\223\303\243\302\201\302\253\303\243\302\201\302\241\303\243\302\201\302\257\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL2AAoJEOX2RRt2IcQDVAcH/2gaHSXfEgOuvB5S66JWNTMT\n4rqAJkFzaWUgT8F/ofou5O958n5bTjla1YHn93Cm+JCrJk53ECZR1lH0u8H5tRQK\nAQbKO/5HCHh9vh8/G4gghL62a8BwBU5wGwujZdFjtJOmix/2/80QuP5dY7zB1p2j\n0g024ZOaDvv70YAbFQibzZNH/I4LQK0gB2NamVZmcrWI/YWH8LVdVJrzkGFMne/r\n5F5B+kOXZp7KDCdbToNMT2NG5KAT6nkyCWv6njcehiL85V73hpBLy/HD1FAHeGFD\nzru/CXmrEejKRXoz8F7QBx8z2uQ4PAZ0pyEX8aM5wtyQLWlPXmI5ZNM5hXFjLrw=\n=l4pk\n-----END PGP SIGNATURE-----"
-    ],
-    parent => [
-      "21a06f684ba48bdff19436074f991267c849afcf",
-      "7fa20ca61711a0109d431b1a479e3091c8ac9317"
-    ],
-    subject => "dobr\303\275 den (cs)",
-    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
-  },
-  "60e4317e8c82fe9cc14058a5cd82ae95da4160d3" => {
-    body => "",
-    extra => "",
-    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL3AAoJEOX2RRt2IcQDfooH/2lWSRzo93o9kEnRMo4qqjtC\nbVAQOOCXr6ZuqFGSMnqoc6Am8nz8lhf379aA3iwmDrbUuDfGb71CsajUa7hvYsTm\nPd65arkNW+iXQgqpXgop0z9sAeLC9NvzT3IxWaZK63HYzXLd/z2u55OOA3mpimJE\nidbMBiQH6EKs+x9BT7CZ8D03oiGnaGCVfmyB3Iu7Pdf+vtLER5D3JUaGWijtIPWS\nSara2Lc28CWrn6SnEdUaLX95nOGWA/cwmCILoVgrArECQSnb1XQTL47M7UX6P7Lb\nKuC4ASpofSYYlUmdGRQa6YX2Sdq1RPGB0fd5hMcUN0ChrcMPHeeRu9sIn0764xs=\n=hpCM\n-----END PGP SIGNATURE-----",
-    mergetag => [
-      "object be8bb3e4c13f7c7b01d635d86999a87c8b6d87aa\ntype commit\ntag v1.0.3\ntagger Example Committer <committer\@example.com> 1383629558 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL3AAoJEOX2RRt2IcQDKEgH/0H9PFgB6naV/hbHf9gASwdg\nPsBBhe6eIAyqorFWqibbhiq14C19KPWOAuK3y4PvYyVGCiSqA+EMShV09JnS8KLe\nfxrPgDfqWwMCmDpuy6xY8wZILlWxtdwMtJt5/Cc1anAkVBx0TrCwx500UYJdPuMK\nEUHPBWNrjzIF2IKhnZRrxaKXEDLvWytVIy5vUBPDrJwdEYDKZbVNSQgTPLVpJW8D\nj5iSC8h+9Jc4y0Hrs3mZ1FRngD+EVOUmQzxRk+UVyT4QkpI50BLoX0i56eoiMWM0\nZY1nEam29yRVZr/E7QOLiWnXrHyzMwYqTXAwnRtp4BFBN02g1oJzeylB/VpUOQg=\n=vxO9\n-----END PGP SIGNATURE-----"
-    ],
-    parent => [
-      "998cab1c95332c2967dc44b41425661af9c8dcbd",
-      "be8bb3e4c13f7c7b01d635d86999a87c8b6d87aa"
+      "bf9c28859ac7ef3fa9349d3c8c135b0a4d925375",
+      "6656508287f92c541906764e0bd9fc4a096d7a52"
     ],
     subject => "buen d\303\255a (es)",
     tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
   },
-  "6c23b41b247ce53abb5bfa06beaba8ec33eb1a3f" => {
-    body => "# tag 'v1.1.0'\nsigned tag\n\n# gpg: Signature made Tue Nov  5 06:32:39 2013 CET using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n\n# tag 'v1.0.1'\n\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257\n\n# gpg: Signature made Tue Nov  5 06:32:38 2013 CET using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n",
+  "14d006328eed0b5cab47e4c970cbc9c8ec914492" => {
+    body => "",
     extra => "",
+    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCNAAoJEOX2RRt2IcQDcDkH/1Tv4aw/2LGZp2s1IaLUwlNY\nQqfJSumnTu0cCcBiGJrs5L2i/z81DmTnTJULKsEPH4pvXaEBsvNEXprV76xrvAJ8\nQJy++Hhy0HB4Gd4jQLEZfQ++NuUwZtF3Wo/jZ6dehf72VQ7P2zGE3vnNMGswSfyc\ny4px3Ok0+f4+KiBJKOWRFk7aVnXnY9MAuv3yplZ7KnzvDGt5J9J9rt+wTXATdtvH\nVkUQEERYEv9+ggy6m9TIKW0y1BA+/VxapO1pjdxy+q65l/NlvxdC2nwgD5loOQRb\nd8aqpM0DvgJhDzIhWrJUYFes1td8w3lpHO0VIGqZ4WA6/5pi5WIftJOKBMNfWIU=\n=SskS\n-----END PGP SIGNATURE-----",
     mergetag => [
-      "object 21a06f684ba48bdff19436074f991267c849afcf\ntype commit\ntag v1.1.0\ntagger Example Committer <committer\@example.com> 1383629558 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL3AAoJEOX2RRt2IcQDq4AH/jwSqR2olbhr6gNZJPcbWEXV\np/OtrMgB+O8KRWL0At8a9VTbehLeSnRE36WpLgyUVAHpMDw+OB0A1rpS+Ajz/3N/\ntwbPHbO7xIflBZ9TotigGybV2gUpZkFQW9EpQBCpP+ZqLN8vviWogcxCsU2lnmdx\nc6UeBS/pU7TV08WltFuL7WsoA0oIypFD1Yj9nmAtSdlnn0fTlt8YC0h1mrMWWIaN\nBYejxlFQBL7nwg7pxHJl89UtXYiEMJN950skLyq4YX5qLvD1OIxdRtPfIPNLo1sC\n//WCSBGHyhzCP8YSgKFd2Ho0tvxxvR3nEmmrLktSIZmM7AhPuco7dUsakSYyXLA=\n=eqmq\n-----END PGP SIGNATURE-----",
-      "object 7fa20ca61711a0109d431b1a479e3091c8ac9317\ntype commit\ntag v1.0.1\ntagger Example Committer <committer\@example.com> 1383629558 +0100\n\n\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL2AAoJEOX2RRt2IcQDVAcH/2gaHSXfEgOuvB5S66JWNTMT\n4rqAJkFzaWUgT8F/ofou5O958n5bTjla1YHn93Cm+JCrJk53ECZR1lH0u8H5tRQK\nAQbKO/5HCHh9vh8/G4gghL62a8BwBU5wGwujZdFjtJOmix/2/80QuP5dY7zB1p2j\n0g024ZOaDvv70YAbFQibzZNH/I4LQK0gB2NamVZmcrWI/YWH8LVdVJrzkGFMne/r\n5F5B+kOXZp7KDCdbToNMT2NG5KAT6nkyCWv6njcehiL85V73hpBLy/HD1FAHeGFD\nzru/CXmrEejKRXoz8F7QBx8z2uQ4PAZ0pyEX8aM5wtyQLWlPXmI5ZNM5hXFjLrw=\n=l4pk\n-----END PGP SIGNATURE-----"
+      "object b5ed6ffa078b72dbad6ef354a33c3f242ec6806e\ntype commit\ntag v1.1.0\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCMAAoJEOX2RRt2IcQDFyMH/2raUGdOR3uairb67YWIcA2w\ngU1RQ3u59TFj6Zx1TUEWskiMT9CCsmLt1f34tAcusXscLg9GfLUXDtgqVsR/hH52\nMmlC7ZCnCcP+IADuuY7NR4xdGtfOHATf/ZNK6XgHEj44BmaVEeImA2w4Kcd9vl0V\nGzydkXie4FuAu9h1C4xrZPa/HuoyP4jb97QhxJbNY63dR+LGInyet2OIZmGJibR1\nVFwDbtw7z4th9THvt0Uxn1pehDQYd1nZ3MM+29sp0s3jR7BJcmncr3hdDTvvGT2o\nnmVRXVVDDefbEyR4tzp2ggET0Tv11KLJCNsdIFVpY8KPesuYJi6FyYhtsjtHGMo=\n=v70J\n-----END PGP SIGNATURE-----",
+      "object cf7fc372d2396dd4381a758e95ddefd008f771e1\ntype commit\ntag v1.0.2\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQDfhQH/27cuWMLuL+dsfwLvbJJyKEK\nR3QJf28rZBtg/InNGbvwbDgt5/zgGBwTSNlHwu23VC58o2hEHnoMpqcuqG/9ve28\nRfQ++Rc0h0uL0RLEm4hKl47foql0rvRvqPB0oTWTbu8JQI6XNmMj7AkxO9qx4DDr\nmF8SwrpkeNl9p8dhvbgjfptGlbYUXj+OhCv6zsQDuciwHs28XkJZpShSF1U019oi\nRUntTMrkd4I8+y/YP0/LgnANUGwuPLqxGXdxdHWMaQnSN4YW/Okvt3nJScwGby5W\nxnDtM/6XbZuwT3+mlW/5WaRMWsqs8pk2u+gX6Vgf2uVL4rf9f8XQHnRkG4jB+1M=\n=ou7+\n-----END PGP SIGNATURE-----"
     ],
     parent => [
-      "0ae36f101c68fd82a5bb9845fdf99e3fc6ab369e",
-      "21a06f684ba48bdff19436074f991267c849afcf",
-      "7fa20ca61711a0109d431b1a479e3091c8ac9317"
+      "b77f7c42a5357b0a95bce67df5953e6ed7b2cf2d",
+      "b5ed6ffa078b72dbad6ef354a33c3f242ec6806e",
+      "cf7fc372d2396dd4381a758e95ddefd008f771e1"
     ],
-    subject => "Merge tags 'v1.1.0' and 'v1.0.1' into mergetags",
-    tree => "fa85af1dc631f3f8d977aafe0253b1d02eb2c4c7"
-  },
-  "7fa20ca61711a0109d431b1a479e3091c8ac9317" => {
-    body => "",
-    extra => "",
-    parent => [
-      "f7c18a39ec24778012af208988bc23e6f1f3a636"
-    ],
-    subject => "\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257 (ja)",
-    tree => "822aed1f11e71b48d14c899d209b0dca92a08ec8"
-  },
-  "88df96b38e9861eab3af30a312d24a740f3defd2" => {
-    body => "",
-    extra => "",
-    parent => [],
-    subject => "empty tree",
+    subject => "buon giorno (it)",
     tree => "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
   },
-  "998cab1c95332c2967dc44b41425661af9c8dcbd" => {
+  "1fb0b07788e7eaf3fae2f8359c8149399618be06" => {
     body => "",
     extra => "",
-    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL3AAoJEOX2RRt2IcQD+rAH/1Z17+KdH6luVOkOWk1Xcoga\nWFHji9++oBDE6MeydFWfY3PPFDXYjcbnJEkFtTp1F5hzuRqyGGJVnPHAxp7dVDSO\njQ4WZBnfNYA4wyI0U+TuvrPOHUKSvdHuhleE33knLT4q6xxbIm+v8OcptXfx1x7m\ni3/MGYDuUALPg7HbwLHxDh9d8S69c9cyAm3TLQO4IcWWKSI278siIHD9Ex856XKB\nLDsvb5Xy704LM505HqamMozuFMooJz2KHPUoYm0zdBh85nQL+xFvwfDjpVsxsqxf\n5Y3gI+3mHs1twnynMdOIu0Lt4d2EY/hDUwmbdIgYvd+3KhxFOZpOwwZNbC2rykk=\n=UtOD\n-----END PGP SIGNATURE-----",
-    mergetag => [
-      "object d47252b6857d8f8d5cbb531a5240358293d56e7e\ntype commit\ntag v1.0.2\ntagger Example Committer <committer\@example.com> 1383629558 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL3AAoJEOX2RRt2IcQDsv4H/2uqrlUHDAmDfe3Dy3uysJEo\nSb9GVXI6G9GdCn5ZBKAXK83bjMTkRtI0viAXXUwCsga0AeKvysvhguDgFU2GLBxQ\n52K3mDlt0pKlSEEObTM1oRs7xE7B2c6SQ30JTfKCrN75H9Rldp6aCVaij1uDU8b5\nvKL5MprHmGfEgEUda0KJnandyGWaGKTovzKhnEooskMT/iyiNmjrohmIMarYiYoB\nzS+Ejo3BzAKRUij9+8j+SFRlFusIjBCBUUddmYgbWxQiDZqFn/vjrvQsUtlCKAsK\nTh+772Dq5G2aHgrAO8uBIJ6AddOJGBd2FjLClv24HrSllHufpCO8uEawbLh/NmM=\n=qrsZ\n-----END PGP SIGNATURE-----"
-    ],
     parent => [
-      "3eee6394377f62106ddd207b68942676da1b18ea",
-      "d47252b6857d8f8d5cbb531a5240358293d56e7e"
+      "bea869658b6eff2ab90e603b69f71259a06fd0ae"
     ],
-    subject => "bom dia",
-    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
+    subject => "hall\303\263 (is)",
+    tree => "1840015fc84bf133760c966eed4c1b4047ea657a"
   },
-  "9be9b53c65ebf7c4f9d6de843619fd0990fb8d43" => {
+  "472a79ed0821778fd06c7bef3e8488ce87688a06" => {
     body => "",
     extra => "",
     parent => [],
     subject => "hello (en)",
     tree => "fa85af1dc631f3f8d977aafe0253b1d02eb2c4c7"
   },
-  "9fe2fecbe3ffef3c66ba4f5cc43f716f6cc751d3" => {
+  "57736d611050201c30b328406b4638212ce26bfd" => {
     body => "",
     extra => "",
     parent => [
-      "0ae36f101c68fd82a5bb9845fdf99e3fc6ab369e"
-    ],
-    subject => "g\303\263\303\260ur dagur (is)",
-    tree => "b090e309a779f2ea76260d10abd027b08fb36362"
-  },
-  a284f510c8400eb59759afc725162214033096b1 => {
-    body => "",
-    extra => "",
-    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL4AAoJEOX2RRt2IcQD040H/3JzRf7Pxxcre3FG54FtI4IP\necNQetBwnedCLaBqSqez9I/Cr+3OWnYjwLL/0pviU16S+ziM0naEa9jkBdvSxOo1\nuJA+1QlSnioLJG6+tH7YqV260ElDFhjTHcAX8xXO1jAWsI4OfSkYll8cGYd1joQG\n5Uw39RVpcElAfbWCDNE4tl2BrBk3LHC2xnPxCkUOi1h4dxWjD1Obz6JIDUlwdZ5R\n9JndRYu4kBVdXDU+NPnIvPMzEFVcCf0ncGwc1KsHKRaTt1KILk5s68wOj6amd9/J\nVpE9JNemKQTHEtOLFoAunweGBlUgROyMNnLz91Ld8+WEOAzMr4dWgTgPylRNfI4=\n=WF0v\n-----END PGP SIGNATURE-----",
-    mergetag => [
-      "object 21a06f684ba48bdff19436074f991267c849afcf\ntype commit\ntag v1.1.0\ntagger Example Committer <committer\@example.com> 1383629558 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL3AAoJEOX2RRt2IcQDq4AH/jwSqR2olbhr6gNZJPcbWEXV\np/OtrMgB+O8KRWL0At8a9VTbehLeSnRE36WpLgyUVAHpMDw+OB0A1rpS+Ajz/3N/\ntwbPHbO7xIflBZ9TotigGybV2gUpZkFQW9EpQBCpP+ZqLN8vviWogcxCsU2lnmdx\nc6UeBS/pU7TV08WltFuL7WsoA0oIypFD1Yj9nmAtSdlnn0fTlt8YC0h1mrMWWIaN\nBYejxlFQBL7nwg7pxHJl89UtXYiEMJN950skLyq4YX5qLvD1OIxdRtPfIPNLo1sC\n//WCSBGHyhzCP8YSgKFd2Ho0tvxxvR3nEmmrLktSIZmM7AhPuco7dUsakSYyXLA=\n=eqmq\n-----END PGP SIGNATURE-----",
-      "object d47252b6857d8f8d5cbb531a5240358293d56e7e\ntype commit\ntag v1.0.2\ntagger Example Committer <committer\@example.com> 1383629558 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL3AAoJEOX2RRt2IcQDsv4H/2uqrlUHDAmDfe3Dy3uysJEo\nSb9GVXI6G9GdCn5ZBKAXK83bjMTkRtI0viAXXUwCsga0AeKvysvhguDgFU2GLBxQ\n52K3mDlt0pKlSEEObTM1oRs7xE7B2c6SQ30JTfKCrN75H9Rldp6aCVaij1uDU8b5\nvKL5MprHmGfEgEUda0KJnandyGWaGKTovzKhnEooskMT/iyiNmjrohmIMarYiYoB\nzS+Ejo3BzAKRUij9+8j+SFRlFusIjBCBUUddmYgbWxQiDZqFn/vjrvQsUtlCKAsK\nTh+772Dq5G2aHgrAO8uBIJ6AddOJGBd2FjLClv24HrSllHufpCO8uEawbLh/NmM=\n=qrsZ\n-----END PGP SIGNATURE-----"
-    ],
-    parent => [
-      "88df96b38e9861eab3af30a312d24a740f3defd2",
-      "21a06f684ba48bdff19436074f991267c849afcf",
-      "d47252b6857d8f8d5cbb531a5240358293d56e7e"
-    ],
-    subject => "buon giorno (it)",
-    tree => "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
-  },
-  a8516d977b481a4d73dda9b75cad4bfe71012e81 => {
-    body => "",
-    extra => "",
-    parent => [
-      "60e4317e8c82fe9cc14058a5cd82ae95da4160d3"
+      "0da5342f6312940a08c31db6b14a3032cd5b4f2a"
     ],
     subject => "add the README",
-    tree => "3096e79fddf5e2f440df8401af0c478a683d9071"
+    tree => "84a4c2b6522149a6aed2f3945da5cff7b95a358a"
   },
-  b9998a8d2c194fd5f64440dbb381ef54921b4a4a => {
+  "6656508287f92c541906764e0bd9fc4a096d7a52" => {
     body => "",
     extra => "",
     parent => [
-      "0ae36f101c68fd82a5bb9845fdf99e3fc6ab369e"
-    ],
-    subject => "\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257 (ja)",
-    tree => "51827db31da3d816058b613f19c971e5c4fa6f16"
-  },
-  be8bb3e4c13f7c7b01d635d86999a87c8b6d87aa => {
-    body => "",
-    extra => "",
-    parent => [
-      "d47252b6857d8f8d5cbb531a5240358293d56e7e"
+      "cf7fc372d2396dd4381a758e95ddefd008f771e1"
     ],
     subject => "",
     tree => "524a684865d9b37e0a7236df14ccde01501f063d"
   },
-  d47252b6857d8f8d5cbb531a5240358293d56e7e => {
+  "7320b9621b2fe6067729bec0676b1229dc4c094f" => {
     body => "",
     extra => "",
-    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL2AAoJEOX2RRt2IcQDErUIAIMAep/ltBrsqZ5Aoe9ByeN6\npF2qaISdQ7ygxuLBVnUCwzMjsSKC6H8l1z5NgWNr6zQy1dJ4c/oJsjqvp5AfC52L\nO024cSX0ahQbsaCz9NBEIYdrzgT3tLMzgp82jr8ZKvzAWI7TyoqJJ6L7NFOAHQXt\nkPuDbf1ll5f40A/Tvk12e6vD0yNCe8o5ihjJ93uep2FBfbb2K4QOcFzE0FIhCmoS\nhg0hZveE42W+j34d8DLzHwzVvGBh+sBIjRqBg0I8pc6/CzajngvCToWQAzYSJZr6\neY3w+5cXHwbPGELujrCk9xien8DF3H8ETC/49g2oncnEWssY/ROQ0Yn4PALDu/c=\n=BLwa\n-----END PGP SIGNATURE-----",
-    parent => [
-      "7fa20ca61711a0109d431b1a479e3091c8ac9317"
+    mergetag => [
+      "object 8fd90f83295eb00b056f21ae65e7381920aea3bc\ntype commit\ntag v1.0.1\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\n\303\243\302\201\302\223\303\243\302\202\302\223\303\243\302\201\302\253\303\243\302\201\302\241\303\243\302\201\302\257\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQDe2kH/1cOG4c6Qr/BjK4dHyvPQ8n4\nBTbMCp3HcIbtAdsDOIfv0QHSBD5sXMboU5aaP3M+NSC3RcxhwIvIw4VaHTRPQIoI\nmXeTYypIbcyQHbcQzrswXw8Ewe3ZZ2rxABmXHFIlRm+mn4p2LWxO99lRNBnQLsET\n50RuGiJx3tyOA4SUOfTpXJ477CoI48t5CS9GyEDMTdXJuEzMohkb5umySA+GtmOL\nTyqx104ET7hMkitcprYRsA/Xl/h5u9oj7/pOCcyCSUnbMPbtE6Iyb1oCJvfwrss2\nLKMY4eMdkVk++Jy6GuEduIkCCjulEHU8baDlP8upJExWlrNVT8G2kUltOLqJLJg=\n=YOwt\n-----END PGP SIGNATURE-----"
     ],
-    subject => "ol\303\241 (pt)",
-    tree => "33a90fc1da2f84bfc394fa886a3d70ae534dc03f"
+    parent => [
+      "b5ed6ffa078b72dbad6ef354a33c3f242ec6806e",
+      "8fd90f83295eb00b056f21ae65e7381920aea3bc"
+    ],
+    subject => "dobr\303\275 den (cs)",
+    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
   },
-  dd8437af8d1fa7c53de33db969ceceee8c1c153a => {
+  "7b1c51494dafb4c4e981cc09371e1c26129d9fe2" => {
     body => "",
     extra => "",
-    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSeIL2AAoJEOX2RRt2IcQDITcH/02I4nMpkkZDkveN6W2FS+We\nEZGu/kukFNxsp/Q8SucicaNfsYJRdU9MNrakxufJOQN7WPTkRYlEG3DIRwJHpP0N\nAlz0zavY/J0qDAkgsmiF0OIie44ecpp+ghckCkFyijESda5RArMWxiaikFoBOpgP\nHYvkkzbv9NZvTxNvZF+eWoJFbxBE3N/2vNiADcrJ6gUdBQVQHj4d364lPEb/ZnIj\nH4XwcqA76NYL+0F09bAkx7BS0S3/alYyPe+SFok6xCL62dj7Yv4ocJtA5eDVFA/n\naNiEGTf1is8C2d2irJNt8+420pXOzGAtLaTaHXkMlpDD4MLxdIVxI6eTZXdOLCY=\n=1pdD\n-----END PGP SIGNATURE-----",
+    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQDKDAIAI4BdDRcjZnJa+876tLNzpJD\nEhhkujcpWeZOml7kP1I8WC/W+H7eS+/lCX69mkZDz06ISh9JCxs5zVPjMO5GfFzm\nzwql21/VJIa3Eye4MsjrrgIfHXVTUjKSMzRptw+oqWpZNJqOZN/2NCaOBiud5YF+\n/DGPWOZdI+b9CwsljUar/xoKyDVrUjQHcTF/i0jEhMojNBQ/I1RODydaOqQJn0SR\nitj7kZ3UbUrD9MguM8UTALsrMQTu+T6JdQvZ5n0uH4D3qxd8K0sDpZKBeZSmxd66\nxrp1Q/CJEjk7gsUaBH6og2aOkwyYAbRRS/xZQdOVjmwgX/LnpKUPtn/mWDbCuL4=\n=Rqzb\n-----END PGP SIGNATURE-----",
     parent => [
-      "b9998a8d2c194fd5f64440dbb381ef54921b4a4a"
+      "cb53cd7ee23bf8498effc165655da63975e9417e"
     ],
     subject => "hej (da)",
     tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
   },
-  f7c18a39ec24778012af208988bc23e6f1f3a636 => {
+  "8fd90f83295eb00b056f21ae65e7381920aea3bc" => {
     body => "",
     extra => "",
     parent => [
-      "9fe2fecbe3ffef3c66ba4f5cc43f716f6cc751d3"
+      "1fb0b07788e7eaf3fae2f8359c8149399618be06"
     ],
-    subject => "hall\303\263 (is)",
-    tree => "1840015fc84bf133760c966eed4c1b4047ea657a"
+    subject => "\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257 (ja)",
+    tree => "822aed1f11e71b48d14c899d209b0dca92a08ec8"
+  },
+  b5ed6ffa078b72dbad6ef354a33c3f242ec6806e => {
+    body => "signed tag\n\n# gpg: Signature made Tue Dec 31 17:27:55 2013 CET using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n",
+    extra => "",
+    mergetag => [
+      "object 1fb0b07788e7eaf3fae2f8359c8149399618be06\ntype commit\ntag v1.0.0\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQD94AH/3Y+QBWtpPjiIO9BNW0CJTkQ\nTLl0Z69vaW0yhXCmlJ0A1GH/DIFYaxnfduI4vCjsLIQG+3sOuKxZEojs6zj8LeCv\n6ox62fe4SAVJle80/1JK7cJMQawDsoqThyjwf/Gu+WUc2TZF3ZlTI6cslQuXLQbr\nP/tIGDHKDYp9ja4OD9HnlLaVJs64s/PykkWODhar4z3tL7uEVAJFF6PqyPhQUS05\nG24klmfT/lmMDNSfcuWJ+SFzjjAicOCfuww4p9wZon4EfgacQYIwz7Oi522yoFmH\nJWNc7toyaZEENb50ZzggcQsAGdPaamohykKSQj/pJYlmOPVdHR7nDNCeX/poKMM=\n=EPlm\n-----END PGP SIGNATURE-----"
+    ],
+    parent => [
+      "7b1c51494dafb4c4e981cc09371e1c26129d9fe2",
+      "1fb0b07788e7eaf3fae2f8359c8149399618be06"
+    ],
+    subject => "Merge tag 'v1.0.0'",
+    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
+  },
+  b77f7c42a5357b0a95bce67df5953e6ed7b2cf2d => {
+    body => "",
+    extra => "",
+    parent => [],
+    subject => "empty tree",
+    tree => "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+  },
+  bea869658b6eff2ab90e603b69f71259a06fd0ae => {
+    body => "",
+    extra => "",
+    parent => [
+      "c88c3ff4125c0bfb708a171ac89c4b3e0848bf24"
+    ],
+    subject => "g\303\263\303\260ur dagur (is)",
+    tree => "b090e309a779f2ea76260d10abd027b08fb36362"
+  },
+  bf9c28859ac7ef3fa9349d3c8c135b0a4d925375 => {
+    body => "",
+    extra => "",
+    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCMAAoJEOX2RRt2IcQDBYAH/ivd449rztZjOZx9ILqlEyqE\nk/Y/aT44nxFJhm9n3ws0H6I4G71sv+o3FZHbIjMmHuxKMtAgXsoa8VpS+7H+B+oE\nKuFIs3XLxbhnsWNHuu9EfdZ6pwL6kr6DSfCjUAgTle8TkAlLYLAWVUeVibIF1ovJ\nH99bC9P4oCfwyiCC++m4nMTISUZIfoB2zu0u6K/u09BHwyaX7S1jUZPB88niyi1Q\nwMift0s3r3D4Yu1EH7W5mO+s36S9yMIKanJn14l3gl6WOIoBb9hAOWuXejWFnK8c\ncrpBIw5igEpWhzxBnESiawNQEWOEIBBTU4YmYNPh9aisIDaL/QcDEKHCtUdEBOE=\n=PcYp\n-----END PGP SIGNATURE-----",
+    mergetag => [
+      "object cf7fc372d2396dd4381a758e95ddefd008f771e1\ntype commit\ntag v1.0.2\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQDfhQH/27cuWMLuL+dsfwLvbJJyKEK\nR3QJf28rZBtg/InNGbvwbDgt5/zgGBwTSNlHwu23VC58o2hEHnoMpqcuqG/9ve28\nRfQ++Rc0h0uL0RLEm4hKl47foql0rvRvqPB0oTWTbu8JQI6XNmMj7AkxO9qx4DDr\nmF8SwrpkeNl9p8dhvbgjfptGlbYUXj+OhCv6zsQDuciwHs28XkJZpShSF1U019oi\nRUntTMrkd4I8+y/YP0/LgnANUGwuPLqxGXdxdHWMaQnSN4YW/Okvt3nJScwGby5W\nxnDtM/6XbZuwT3+mlW/5WaRMWsqs8pk2u+gX6Vgf2uVL4rf9f8XQHnRkG4jB+1M=\n=ou7+\n-----END PGP SIGNATURE-----"
+    ],
+    parent => [
+      "7320b9621b2fe6067729bec0676b1229dc4c094f",
+      "cf7fc372d2396dd4381a758e95ddefd008f771e1"
+    ],
+    subject => "bom dia",
+    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
+  },
+  c3beec8670865125228e1e87b30cd940dbc7ac96 => {
+    body => "# tag 'v1.1.0'\nsigned tag\n\n# gpg: Signature made Tue Dec 31 17:27:56 2013 CET using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n\n# tag 'v1.0.1'\n\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257\n\n# gpg: Signature made Tue Dec 31 17:27:55 2013 CET using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n",
+    extra => "",
+    mergetag => [
+      "object b5ed6ffa078b72dbad6ef354a33c3f242ec6806e\ntype commit\ntag v1.1.0\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCMAAoJEOX2RRt2IcQDFyMH/2raUGdOR3uairb67YWIcA2w\ngU1RQ3u59TFj6Zx1TUEWskiMT9CCsmLt1f34tAcusXscLg9GfLUXDtgqVsR/hH52\nMmlC7ZCnCcP+IADuuY7NR4xdGtfOHATf/ZNK6XgHEj44BmaVEeImA2w4Kcd9vl0V\nGzydkXie4FuAu9h1C4xrZPa/HuoyP4jb97QhxJbNY63dR+LGInyet2OIZmGJibR1\nVFwDbtw7z4th9THvt0Uxn1pehDQYd1nZ3MM+29sp0s3jR7BJcmncr3hdDTvvGT2o\nnmVRXVVDDefbEyR4tzp2ggET0Tv11KLJCNsdIFVpY8KPesuYJi6FyYhtsjtHGMo=\n=v70J\n-----END PGP SIGNATURE-----",
+      "object 8fd90f83295eb00b056f21ae65e7381920aea3bc\ntype commit\ntag v1.0.1\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\n\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQDe2kH/1cOG4c6Qr/BjK4dHyvPQ8n4\nBTbMCp3HcIbtAdsDOIfv0QHSBD5sXMboU5aaP3M+NSC3RcxhwIvIw4VaHTRPQIoI\nmXeTYypIbcyQHbcQzrswXw8Ewe3ZZ2rxABmXHFIlRm+mn4p2LWxO99lRNBnQLsET\n50RuGiJx3tyOA4SUOfTpXJ477CoI48t5CS9GyEDMTdXJuEzMohkb5umySA+GtmOL\nTyqx104ET7hMkitcprYRsA/Xl/h5u9oj7/pOCcyCSUnbMPbtE6Iyb1oCJvfwrss2\nLKMY4eMdkVk++Jy6GuEduIkCCjulEHU8baDlP8upJExWlrNVT8G2kUltOLqJLJg=\n=YOwt\n-----END PGP SIGNATURE-----"
+    ],
+    parent => [
+      "c88c3ff4125c0bfb708a171ac89c4b3e0848bf24",
+      "b5ed6ffa078b72dbad6ef354a33c3f242ec6806e",
+      "8fd90f83295eb00b056f21ae65e7381920aea3bc"
+    ],
+    subject => "Merge tags 'v1.1.0' and 'v1.0.1' into mergetags",
+    tree => "fa85af1dc631f3f8d977aafe0253b1d02eb2c4c7"
+  },
+  c88c3ff4125c0bfb708a171ac89c4b3e0848bf24 => {
+    body => "",
+    extra => "",
+    parent => [
+      "472a79ed0821778fd06c7bef3e8488ce87688a06",
+      "b77f7c42a5357b0a95bce67df5953e6ed7b2cf2d"
+    ],
+    subject => "Merge branch 'slave'",
+    tree => "fa85af1dc631f3f8d977aafe0253b1d02eb2c4c7"
+  },
+  cb53cd7ee23bf8498effc165655da63975e9417e => {
+    body => "",
+    extra => "",
+    parent => [
+      "c88c3ff4125c0bfb708a171ac89c4b3e0848bf24"
+    ],
+    subject => "\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257 (ja)",
+    tree => "51827db31da3d816058b613f19c971e5c4fa6f16"
+  },
+  cf7fc372d2396dd4381a758e95ddefd008f771e1 => {
+    body => "",
+    extra => "",
+    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQD11AIAIUtyxP0o1Ob9D6ErF24MVsP\n8bl4nGzd7caGNdi2jCXHJn5k4F5a+Heirc+kYSRapxigJq+rLxVQ0C/JPaz4EnST\no8wjXgW1O3sV6qX0NtFG3GDt870JLTSHNLwpiYNle98gdMcqkJN1ApCYFo6t/wHg\nwDa3Z6CgIJi3CidKi77Dj2QnFYXSeB7Tyrf1IHeKbmFHQkIGb8F34mHqX4YsfO4g\naRsVqymQgimtoR8bOGCQioBGogcGJ0LuHnqoU747rmok7298ZpFqnIWYrxcBuvLL\nrObHMz2FXJystNWn/+JHjQjUhDeqdEXNLbkmioX+z4BOBxcmZoYxHJrkjhBNqzw=\n=vbnw\n-----END PGP SIGNATURE-----",
+    parent => [
+      "8fd90f83295eb00b056f21ae65e7381920aea3bc"
+    ],
+    subject => "ol\303\241 (pt)",
+    tree => "33a90fc1da2f84bfc394fa886a3d70ae534dc03f"
   }
 );
