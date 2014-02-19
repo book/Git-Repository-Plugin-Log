@@ -82,7 +82,7 @@ sub new {
 
 =head1 DESCRIPTION
 
-L<Git::Repository::Log> is a class whose instances reprensent
+L<Git::Repository::Log> is a class whose instances represent
 log items from a B<git log> stream.
 
 =head1 CONSTRUCTOR
