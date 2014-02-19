@@ -57,7 +57,13 @@ This module adds a new method to L<Git::Repository>.
 
 =head1 METHOD
 
-=head2 log( @args )
+=head2 log
+
+   # iterator
+   my $iter = $r->log( @args );
+
+   # all Git::Repository::Log objects obtained from the log
+   my @logs = $r->log( @args );
 
 Run C<git log> with the given arguments.
 

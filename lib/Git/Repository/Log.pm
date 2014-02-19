@@ -90,7 +90,7 @@ log items from a B<git log> stream.
 This method shouldn't be used directly. L<Git::Repository::Log::Iterator>
 should be the preferred way to create L<Git::Repository::Log> objects.
 
-=head2 new( @args )
+=head2 new
 
 Create a new L<Git::Repository::Log> instance, using the list of key/values
 passed as parameters. The supported keys are (from the output of
