@@ -11,7 +11,7 @@ consult the changelog for that distribution.
         [TESTS]
         - output the git version, to help debug FAIL reports
         - change the test bundle to use "SJIS" instead of "shift-jis" encoding
-        [DOCUMENTATION
+        [DOCUMENTATION]
         - simplify the titles when documenting methods and functions
 
 1.310 Tue Nov 5 2013
