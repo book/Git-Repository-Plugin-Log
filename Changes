@@ -7,8 +7,14 @@ consult the changelog for that distribution.
 
 {{$NEXT}}
 
-1.310 Tue Nov 5 2013
+1.311 Fri Apr 25 2014
+        [TESTS]
+        - output the git version, to help debug FAIL reports
+        - change the test bundle to use "SJIS" instead of "shift-jis" encoding
+        [DOCUMENTATION
+        - simplify the titles when documenting methods and functions
 
+1.310 Tue Nov 5 2013
         [ENHANCEMENTS]
         - Git::Repository::Log now properly handles commits where the
           author or committer name is empty
