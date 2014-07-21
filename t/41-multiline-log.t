@@ -21,10 +21,12 @@ has_git('1.5.1');
         my $commit = $commit{$id};
         is( $log->tree, $commit->{tree}, "commit $id tree" );
         is_deeply( [ $log->parent ], $commit->{parent}, "commit $id parent" );
-        is( $log->subject,  $commit->{subject},  "commit $id subject" );
-        is( $log->body,     $commit->{body},     "commit $id body" );
-        is( $log->extra,    $commit->{extra},    "commit $id extra" );
-        is( $log->gpgsig,   $commit->{gpgsig},   "commit $id gpgsig" );
+        is( $log->author,    $commit->{author},    "commit $id author" );
+        is( $log->committer, $commit->{committer}, "commit $id committer" );
+        is( $log->subject,   $commit->{subject},   "commit $id subject" );
+        is( $log->body,      $commit->{body},      "commit $id body" );
+        is( $log->extra,     $commit->{extra},     "commit $id extra" );
+        is( $log->gpgsig,    $commit->{gpgsig},    "commit $id gpgsig" );
         is_deeply(
             [ $log->mergetag ],
             $commit->{mergetag} || [],
@@ -32,7 +34,7 @@ has_git('1.5.1');
         );
     }
 
-    plan tests => 7 * scalar keys %commit;
+    plan tests => 9 * scalar keys %commit;
 }
 
 # clean up the environment
