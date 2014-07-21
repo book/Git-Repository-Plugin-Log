@@ -1,185 +1,230 @@
 %commit = (
-  "0da5342f6312940a08c31db6b14a3032cd5b4f2a" => {
+  "0b2d9d33df9eebbbfea07fab53019f63571183c6" => {
+    author => "Example Author <author\@example.com> 1405523491 +0100",
     body => "",
-    extra => "",
-    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCMAAoJEOX2RRt2IcQDZacH/0qGZ7YOoQ+FmZ2yBEFhWlBL\nP/k+gk3CSHvg/br1M7kJfNl7wGSoAv1rez3kx/gUPxcBYVjtw3foTF4IO+xd8cpN\ntD7S6Bds4UVqihLarLW80NhVEb0Wit5E5xOsPn1gvVyJRq/lxQEz2/JglY4Y+c4n\n+W1jzaLrGZDR2JZbmGZ3qONXIbRToNeX89YFBdxez1ZkHGsEse+gK9wuVyyOBxvx\nu3Es5Hz9qQDgg6JdVub9/P/QwrodewOkErn80E4CiacXOyWwHUVk1RfRz16dJgYx\n3TIlNIDrnSU8vPnOfL10m8VpVaapIfs17LeRjQCT8FlATcdz/6GNmArvPo0/urA=\n=6U5E\n-----END PGP SIGNATURE-----",
-    mergetag => [
-      "object 6656508287f92c541906764e0bd9fc4a096d7a52\ntype commit\ntag v1.0.3\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCMAAoJEOX2RRt2IcQD+rsH/i+CQHJnGunJia/GhQGrsi2C\n5d8yaN6Yx0WNRQ1Wj6Yh/PI3vzLt79JIesmefW/0nOzmFtF+NsLgLjsmxjnwuMO9\n1/u6uc9TBv9xshfJMyVj3KB0GRUyU00QE4vUKuy34KfR2CoQ0swHPSrN+H6UQfNh\ne5CJReb4orefQJKgShjgh0RG/ApdpIiQYMQzD9GFQ9Yk9YG8O+usOLLBvXTaG85R\nKNKapRhRr8cqSeQ6WHSGqLP7B3yj8gOR9/N3bc4JTtOScubXanVRCETc5mSPOgkE\nKpaXRF+Z8lGcBENWWmmv/ctlgnAQPCzuVwfdPBTCY+jUPzawxs2d5y7E/nCjgiE=\n=R6sc\n-----END PGP SIGNATURE-----"
-    ],
-    parent => [
-      "bf9c28859ac7ef3fa9349d3c8c135b0a4d925375",
-      "6656508287f92c541906764e0bd9fc4a096d7a52"
-    ],
-    subject => "buen d\303\255a (es)",
-    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
-  },
-  "14d006328eed0b5cab47e4c970cbc9c8ec914492" => {
-    body => "",
-    extra => "",
-    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCNAAoJEOX2RRt2IcQDcDkH/1Tv4aw/2LGZp2s1IaLUwlNY\nQqfJSumnTu0cCcBiGJrs5L2i/z81DmTnTJULKsEPH4pvXaEBsvNEXprV76xrvAJ8\nQJy++Hhy0HB4Gd4jQLEZfQ++NuUwZtF3Wo/jZ6dehf72VQ7P2zGE3vnNMGswSfyc\ny4px3Ok0+f4+KiBJKOWRFk7aVnXnY9MAuv3yplZ7KnzvDGt5J9J9rt+wTXATdtvH\nVkUQEERYEv9+ggy6m9TIKW0y1BA+/VxapO1pjdxy+q65l/NlvxdC2nwgD5loOQRb\nd8aqpM0DvgJhDzIhWrJUYFes1td8w3lpHO0VIGqZ4WA6/5pi5WIftJOKBMNfWIU=\n=SskS\n-----END PGP SIGNATURE-----",
-    mergetag => [
-      "object b5ed6ffa078b72dbad6ef354a33c3f242ec6806e\ntype commit\ntag v1.1.0\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCMAAoJEOX2RRt2IcQDFyMH/2raUGdOR3uairb67YWIcA2w\ngU1RQ3u59TFj6Zx1TUEWskiMT9CCsmLt1f34tAcusXscLg9GfLUXDtgqVsR/hH52\nMmlC7ZCnCcP+IADuuY7NR4xdGtfOHATf/ZNK6XgHEj44BmaVEeImA2w4Kcd9vl0V\nGzydkXie4FuAu9h1C4xrZPa/HuoyP4jb97QhxJbNY63dR+LGInyet2OIZmGJibR1\nVFwDbtw7z4th9THvt0Uxn1pehDQYd1nZ3MM+29sp0s3jR7BJcmncr3hdDTvvGT2o\nnmVRXVVDDefbEyR4tzp2ggET0Tv11KLJCNsdIFVpY8KPesuYJi6FyYhtsjtHGMo=\n=v70J\n-----END PGP SIGNATURE-----",
-      "object cf7fc372d2396dd4381a758e95ddefd008f771e1\ntype commit\ntag v1.0.2\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQDfhQH/27cuWMLuL+dsfwLvbJJyKEK\nR3QJf28rZBtg/InNGbvwbDgt5/zgGBwTSNlHwu23VC58o2hEHnoMpqcuqG/9ve28\nRfQ++Rc0h0uL0RLEm4hKl47foql0rvRvqPB0oTWTbu8JQI6XNmMj7AkxO9qx4DDr\nmF8SwrpkeNl9p8dhvbgjfptGlbYUXj+OhCv6zsQDuciwHs28XkJZpShSF1U019oi\nRUntTMrkd4I8+y/YP0/LgnANUGwuPLqxGXdxdHWMaQnSN4YW/Okvt3nJScwGby5W\nxnDtM/6XbZuwT3+mlW/5WaRMWsqs8pk2u+gX6Vgf2uVL4rf9f8XQHnRkG4jB+1M=\n=ou7+\n-----END PGP SIGNATURE-----"
-    ],
-    parent => [
-      "b77f7c42a5357b0a95bce67df5953e6ed7b2cf2d",
-      "b5ed6ffa078b72dbad6ef354a33c3f242ec6806e",
-      "cf7fc372d2396dd4381a758e95ddefd008f771e1"
-    ],
-    subject => "buon giorno (it)",
-    tree => "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
-  },
-  "1fb0b07788e7eaf3fae2f8359c8149399618be06" => {
-    body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
     extra => "",
     parent => [
-      "bea869658b6eff2ab90e603b69f71259a06fd0ae"
+      "32defe32456a053a9c391cdcf9a4292af6d3c80a"
     ],
-    subject => "hall\303\263 (is)",
-    tree => "1840015fc84bf133760c966eed4c1b4047ea657a"
+    subject => "g\303\263\303\260ur dagur (is)",
+    tree => "b090e309a779f2ea76260d10abd027b08fb36362"
   },
-  "472a79ed0821778fd06c7bef3e8488ce87688a06" => {
+  "1f2e387e072680656acac623ea04e1b2b054e8c7" => {
+    author => "Example Author <author\@example.com> 1405523494 +0100",
     body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    extra => "",
+    parent => [
+      "f6812d818e65423551c0eb7ac899dbea5311eb56"
+    ],
+    subject => "\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257 (ja)",
+    tree => "822aed1f11e71b48d14c899d209b0dca92a08ec8"
+  },
+  "255a1a6e669ab3b04fd53d26c3ffcdfe16d83a3e" => {
+    author => " <author\@example.com> 1405523483 +0100",
+    body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
     extra => "",
     parent => [],
     subject => "hello (en)",
     tree => "fa85af1dc631f3f8d977aafe0253b1d02eb2c4c7"
   },
-  "57736d611050201c30b328406b4638212ce26bfd" => {
+  "32defe32456a053a9c391cdcf9a4292af6d3c80a" => {
+    author => "Example Author <author\@example.com> 1405523488 +0100",
     body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
     extra => "",
     parent => [
-      "0da5342f6312940a08c31db6b14a3032cd5b4f2a"
+      "6015b6a34038fd16fa8393a066493e6fcc9a174a",
+      "6ba823ece3063b52e1d44cdde497332645fb49e0"
+    ],
+    subject => "Merge branch 'slave'",
+    tree => "a319709ffcce3607d752ca412bd1db7f932cce81"
+  },
+  "469cc551a1323d8a0285efa7047d72d99013fd36" => {
+    author => "Example Author <author\@example.com> 1405523505 +0100",
+    body => "# tag 'v1.1.0'\nsigned tag\n\n# gpg: Signature made Wed Jul 16 18:11:23 2014 CEST using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n\n# tag 'v1.0.1'\n\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257\n\n# gpg: Signature made Wed Jul 16 18:11:23 2014 CEST using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    extra => "",
+    mergetag => [
+      "object fc862ff3b0b4eb337e6ed714031c6cdeaa42ffd9\ntype commit\ntag v1.1.0\ntagger Example Committer <committer\@example.com> 1405527082 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQDHNEH/18O60/7Q2ALyrgQ0ArhBvUG\nM/El7f84thgfbwbYeDmg65zMrzy5B+8ny8TCSBgza7d2QICu4QTHk/UesiHftaSA\nauQpj57ky3rnZMEwepCiJmYyeVwHerDaNQm7ldqb3yktnj65dfbyHQ8M5IjeWAC6\nz7pH31gInps15hWTnJzlmkqQWPKHVxMQzSkY4oWUMltLi0YoEtgqtwTwH8heKBFQ\neDGHAjEgAxZanBF0yIN+OKWrPgPF6UFjvrtyxeJ8c5R5t/al1JwMi6ULRIjJ9BA0\nzQct7xpSNz8qncNfmiJHHfnwlHBT95nTvsatO+OZPNpvO9vFmr41QsklYsXrOGQ=\n=VnjD\n-----END PGP SIGNATURE-----",
+      "object 1f2e387e072680656acac623ea04e1b2b054e8c7\ntype commit\ntag v1.0.1\ntagger Example Committer <committer\@example.com> 1405527082 +0100\n\n\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQD70AIAI89r83aW3hwj5x4HXx+xj8p\nT/hdAtdkv86j4M3Wi1eJ6BDwmEa0ZwW+Zsxd8ucal7/pprpI68ZkGNoJdgjrJIKO\nD8MkEl9US2ZhM5xtRAjlGqWcVj9KRW09dSHiI7NBhDDrazdZb2sd9HKFrP+RTFIy\n1OzftuOSZfN05pHfKHEwpE96pfQC/EjcY8EL3cJT8MofQbeIGRAJEopcVC4mDHIk\nkW5UtwlYuof31lfq1pePzwcXbuW0Iu9rgEXM5Fi5UMk7YAqSVyhDd1OBAeLID5Xg\nYSizb5DuL6TuK8d3zCQkZohwIzx/a7noLeY9c7c8IqNEJ0GLRC4bJCISZR9h9p8=\n=pEp9\n-----END PGP SIGNATURE-----"
+    ],
+    parent => [
+      "32defe32456a053a9c391cdcf9a4292af6d3c80a",
+      "fc862ff3b0b4eb337e6ed714031c6cdeaa42ffd9",
+      "1f2e387e072680656acac623ea04e1b2b054e8c7"
+    ],
+    subject => "Merge tags 'v1.1.0' and 'v1.0.1' into mergetags",
+    tree => "a319709ffcce3607d752ca412bd1db7f932cce81"
+  },
+  "4e93b5c9530e543075dc2b2373aa0785acc31a3a" => {
+    author => "Example Author <author\@example.com> 1405523506 +0100",
+    body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    extra => "",
+    parent => [
+      "e2a207202a60cec5968c315a3249fdb4831a5d08"
     ],
     subject => "add the README",
-    tree => "84a4c2b6522149a6aed2f3945da5cff7b95a358a"
+    tree => "8c2bcf77a059f11df2933656ddb437bbfad723ed"
   },
-  "6656508287f92c541906764e0bd9fc4a096d7a52" => {
+  "6015b6a34038fd16fa8393a066493e6fcc9a174a" => {
+    author => "Andr\303\251 <author\@example.com> 1405523484 +0100",
     body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
     extra => "",
     parent => [
-      "cf7fc372d2396dd4381a758e95ddefd008f771e1"
+      "255a1a6e669ab3b04fd53d26c3ffcdfe16d83a3e"
     ],
-    subject => "",
-    tree => "524a684865d9b37e0a7236df14ccde01501f063d"
+    subject => "h\303\251ll\303\262",
+    tree => "a319709ffcce3607d752ca412bd1db7f932cce81"
   },
-  "7320b9621b2fe6067729bec0676b1229dc4c094f" => {
+  "6ba823ece3063b52e1d44cdde497332645fb49e0" => {
+    author => "Example Author <author\@example.com> 1405523485 +0100",
     body => "",
-    extra => "",
-    mergetag => [
-      "object 8fd90f83295eb00b056f21ae65e7381920aea3bc\ntype commit\ntag v1.0.1\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\n\303\243\302\201\302\223\303\243\302\202\302\223\303\243\302\201\302\253\303\243\302\201\302\241\303\243\302\201\302\257\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQDe2kH/1cOG4c6Qr/BjK4dHyvPQ8n4\nBTbMCp3HcIbtAdsDOIfv0QHSBD5sXMboU5aaP3M+NSC3RcxhwIvIw4VaHTRPQIoI\nmXeTYypIbcyQHbcQzrswXw8Ewe3ZZ2rxABmXHFIlRm+mn4p2LWxO99lRNBnQLsET\n50RuGiJx3tyOA4SUOfTpXJ477CoI48t5CS9GyEDMTdXJuEzMohkb5umySA+GtmOL\nTyqx104ET7hMkitcprYRsA/Xl/h5u9oj7/pOCcyCSUnbMPbtE6Iyb1oCJvfwrss2\nLKMY4eMdkVk++Jy6GuEduIkCCjulEHU8baDlP8upJExWlrNVT8G2kUltOLqJLJg=\n=YOwt\n-----END PGP SIGNATURE-----"
-    ],
-    parent => [
-      "b5ed6ffa078b72dbad6ef354a33c3f242ec6806e",
-      "8fd90f83295eb00b056f21ae65e7381920aea3bc"
-    ],
-    subject => "dobr\303\275 den (cs)",
-    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
-  },
-  "7b1c51494dafb4c4e981cc09371e1c26129d9fe2" => {
-    body => "",
-    extra => "",
-    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQDKDAIAI4BdDRcjZnJa+876tLNzpJD\nEhhkujcpWeZOml7kP1I8WC/W+H7eS+/lCX69mkZDz06ISh9JCxs5zVPjMO5GfFzm\nzwql21/VJIa3Eye4MsjrrgIfHXVTUjKSMzRptw+oqWpZNJqOZN/2NCaOBiud5YF+\n/DGPWOZdI+b9CwsljUar/xoKyDVrUjQHcTF/i0jEhMojNBQ/I1RODydaOqQJn0SR\nitj7kZ3UbUrD9MguM8UTALsrMQTu+T6JdQvZ5n0uH4D3qxd8K0sDpZKBeZSmxd66\nxrp1Q/CJEjk7gsUaBH6og2aOkwyYAbRRS/xZQdOVjmwgX/LnpKUPtn/mWDbCuL4=\n=Rqzb\n-----END PGP SIGNATURE-----",
-    parent => [
-      "cb53cd7ee23bf8498effc165655da63975e9417e"
-    ],
-    subject => "hej (da)",
-    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
-  },
-  "8fd90f83295eb00b056f21ae65e7381920aea3bc" => {
-    body => "",
-    extra => "",
-    parent => [
-      "1fb0b07788e7eaf3fae2f8359c8149399618be06"
-    ],
-    subject => "\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257 (ja)",
-    tree => "822aed1f11e71b48d14c899d209b0dca92a08ec8"
-  },
-  b5ed6ffa078b72dbad6ef354a33c3f242ec6806e => {
-    body => "signed tag\n\n# gpg: Signature made Tue Dec 31 17:27:55 2013 CET using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n",
-    extra => "",
-    mergetag => [
-      "object 1fb0b07788e7eaf3fae2f8359c8149399618be06\ntype commit\ntag v1.0.0\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQD94AH/3Y+QBWtpPjiIO9BNW0CJTkQ\nTLl0Z69vaW0yhXCmlJ0A1GH/DIFYaxnfduI4vCjsLIQG+3sOuKxZEojs6zj8LeCv\n6ox62fe4SAVJle80/1JK7cJMQawDsoqThyjwf/Gu+WUc2TZF3ZlTI6cslQuXLQbr\nP/tIGDHKDYp9ja4OD9HnlLaVJs64s/PykkWODhar4z3tL7uEVAJFF6PqyPhQUS05\nG24klmfT/lmMDNSfcuWJ+SFzjjAicOCfuww4p9wZon4EfgacQYIwz7Oi522yoFmH\nJWNc7toyaZEENb50ZzggcQsAGdPaamohykKSQj/pJYlmOPVdHR7nDNCeX/poKMM=\n=EPlm\n-----END PGP SIGNATURE-----"
-    ],
-    parent => [
-      "7b1c51494dafb4c4e981cc09371e1c26129d9fe2",
-      "1fb0b07788e7eaf3fae2f8359c8149399618be06"
-    ],
-    subject => "Merge tag 'v1.0.0'",
-    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
-  },
-  b77f7c42a5357b0a95bce67df5953e6ed7b2cf2d => {
-    body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
     extra => "",
     parent => [],
     subject => "empty tree",
     tree => "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
   },
-  bea869658b6eff2ab90e603b69f71259a06fd0ae => {
+  "73dbff4c40d38f3d2b7be0476fd0cc40c2d29d15" => {
+    author => "Example Author <author\@example.com> 1405523496 +0100",
     body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
     extra => "",
+    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQDUpIIAIkOUvX3834rFJcF18rEmfue\nzIFNi3C12S/G6APTg6V2WlwuVtJF6tFc4JScwzgFm4bYrb2JWOaIvAhjNlTnfhxf\nC+UTYcoxxYQKtPdyBNH9dafyrAnxo8FMoVpm/eYbj5rq5ZBlxEIXas8AV0VTK4au\nCzjg73Pib0STVbtF8MqW4KxFfucI770pv9Oj7aZX8WFWzpQZiyGJMiAu/c6Ajeob\nkNtgSvr5OweVKWVdG7EwV4tAtck6tLoJHpOh1CUFORPW3IEjcTPGtAVFDVYiKq/Y\n905mbcbhL0ljoB1iBsQ1xFMZWN2aX75xOhMwQakRGp20UiZuKhd4Fjm2421aMzU=\n=3WvP\n-----END PGP SIGNATURE-----",
     parent => [
-      "c88c3ff4125c0bfb708a171ac89c4b3e0848bf24"
+      "1f2e387e072680656acac623ea04e1b2b054e8c7"
     ],
-    subject => "g\303\263\303\260ur dagur (is)",
-    tree => "b090e309a779f2ea76260d10abd027b08fb36362"
+    subject => "ol\303\241 (pt)",
+    tree => "33a90fc1da2f84bfc394fa886a3d70ae534dc03f"
   },
-  bf9c28859ac7ef3fa9349d3c8c135b0a4d925375 => {
+  "7bc08ae3886d74a575cd92c5f3877e481b45bb07" => {
+    author => "Example Author <author\@example.com> 1405523489 +0100",
     body => "",
-    extra => "",
-    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCMAAoJEOX2RRt2IcQDBYAH/ivd449rztZjOZx9ILqlEyqE\nk/Y/aT44nxFJhm9n3ws0H6I4G71sv+o3FZHbIjMmHuxKMtAgXsoa8VpS+7H+B+oE\nKuFIs3XLxbhnsWNHuu9EfdZ6pwL6kr6DSfCjUAgTle8TkAlLYLAWVUeVibIF1ovJ\nH99bC9P4oCfwyiCC++m4nMTISUZIfoB2zu0u6K/u09BHwyaX7S1jUZPB88niyi1Q\nwMift0s3r3D4Yu1EH7W5mO+s36S9yMIKanJn14l3gl6WOIoBb9hAOWuXejWFnK8c\ncrpBIw5igEpWhzxBnESiawNQEWOEIBBTU4YmYNPh9aisIDaL/QcDEKHCtUdEBOE=\n=PcYp\n-----END PGP SIGNATURE-----",
-    mergetag => [
-      "object cf7fc372d2396dd4381a758e95ddefd008f771e1\ntype commit\ntag v1.0.2\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQDfhQH/27cuWMLuL+dsfwLvbJJyKEK\nR3QJf28rZBtg/InNGbvwbDgt5/zgGBwTSNlHwu23VC58o2hEHnoMpqcuqG/9ve28\nRfQ++Rc0h0uL0RLEm4hKl47foql0rvRvqPB0oTWTbu8JQI6XNmMj7AkxO9qx4DDr\nmF8SwrpkeNl9p8dhvbgjfptGlbYUXj+OhCv6zsQDuciwHs28XkJZpShSF1U019oi\nRUntTMrkd4I8+y/YP0/LgnANUGwuPLqxGXdxdHWMaQnSN4YW/Okvt3nJScwGby5W\nxnDtM/6XbZuwT3+mlW/5WaRMWsqs8pk2u+gX6Vgf2uVL4rf9f8XQHnRkG4jB+1M=\n=ou7+\n-----END PGP SIGNATURE-----"
-    ],
-    parent => [
-      "7320b9621b2fe6067729bec0676b1229dc4c094f",
-      "cf7fc372d2396dd4381a758e95ddefd008f771e1"
-    ],
-    subject => "bom dia",
-    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
-  },
-  c3beec8670865125228e1e87b30cd940dbc7ac96 => {
-    body => "# tag 'v1.1.0'\nsigned tag\n\n# gpg: Signature made Tue Dec 31 17:27:56 2013 CET using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n\n# tag 'v1.0.1'\n\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257\n\n# gpg: Signature made Tue Dec 31 17:27:55 2013 CET using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n",
-    extra => "",
-    mergetag => [
-      "object b5ed6ffa078b72dbad6ef354a33c3f242ec6806e\ntype commit\ntag v1.1.0\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCMAAoJEOX2RRt2IcQDFyMH/2raUGdOR3uairb67YWIcA2w\ngU1RQ3u59TFj6Zx1TUEWskiMT9CCsmLt1f34tAcusXscLg9GfLUXDtgqVsR/hH52\nMmlC7ZCnCcP+IADuuY7NR4xdGtfOHATf/ZNK6XgHEj44BmaVEeImA2w4Kcd9vl0V\nGzydkXie4FuAu9h1C4xrZPa/HuoyP4jb97QhxJbNY63dR+LGInyet2OIZmGJibR1\nVFwDbtw7z4th9THvt0Uxn1pehDQYd1nZ3MM+29sp0s3jR7BJcmncr3hdDTvvGT2o\nnmVRXVVDDefbEyR4tzp2ggET0Tv11KLJCNsdIFVpY8KPesuYJi6FyYhtsjtHGMo=\n=v70J\n-----END PGP SIGNATURE-----",
-      "object 8fd90f83295eb00b056f21ae65e7381920aea3bc\ntype commit\ntag v1.0.1\ntagger Example Committer <committer\@example.com> 1388507274 +0100\n\n\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQDe2kH/1cOG4c6Qr/BjK4dHyvPQ8n4\nBTbMCp3HcIbtAdsDOIfv0QHSBD5sXMboU5aaP3M+NSC3RcxhwIvIw4VaHTRPQIoI\nmXeTYypIbcyQHbcQzrswXw8Ewe3ZZ2rxABmXHFIlRm+mn4p2LWxO99lRNBnQLsET\n50RuGiJx3tyOA4SUOfTpXJ477CoI48t5CS9GyEDMTdXJuEzMohkb5umySA+GtmOL\nTyqx104ET7hMkitcprYRsA/Xl/h5u9oj7/pOCcyCSUnbMPbtE6Iyb1oCJvfwrss2\nLKMY4eMdkVk++Jy6GuEduIkCCjulEHU8baDlP8upJExWlrNVT8G2kUltOLqJLJg=\n=YOwt\n-----END PGP SIGNATURE-----"
-    ],
-    parent => [
-      "c88c3ff4125c0bfb708a171ac89c4b3e0848bf24",
-      "b5ed6ffa078b72dbad6ef354a33c3f242ec6806e",
-      "8fd90f83295eb00b056f21ae65e7381920aea3bc"
-    ],
-    subject => "Merge tags 'v1.1.0' and 'v1.0.1' into mergetags",
-    tree => "fa85af1dc631f3f8d977aafe0253b1d02eb2c4c7"
-  },
-  c88c3ff4125c0bfb708a171ac89c4b3e0848bf24 => {
-    body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
     extra => "",
     parent => [
-      "472a79ed0821778fd06c7bef3e8488ce87688a06",
-      "b77f7c42a5357b0a95bce67df5953e6ed7b2cf2d"
-    ],
-    subject => "Merge branch 'slave'",
-    tree => "fa85af1dc631f3f8d977aafe0253b1d02eb2c4c7"
-  },
-  cb53cd7ee23bf8498effc165655da63975e9417e => {
-    body => "",
-    extra => "",
-    parent => [
-      "c88c3ff4125c0bfb708a171ac89c4b3e0848bf24"
+      "32defe32456a053a9c391cdcf9a4292af6d3c80a"
     ],
     subject => "\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257 (ja)",
     tree => "51827db31da3d816058b613f19c971e5c4fa6f16"
   },
-  cf7fc372d2396dd4381a758e95ddefd008f771e1 => {
+  "989960e0d2f4195927a505447b5e641c41373d7f" => {
+    author => "Example Author <author\@example.com> 1405523498 +0100",
     body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
     extra => "",
-    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJSwvCLAAoJEOX2RRt2IcQD11AIAIUtyxP0o1Ob9D6ErF24MVsP\n8bl4nGzd7caGNdi2jCXHJn5k4F5a+Heirc+kYSRapxigJq+rLxVQ0C/JPaz4EnST\no8wjXgW1O3sV6qX0NtFG3GDt870JLTSHNLwpiYNle98gdMcqkJN1ApCYFo6t/wHg\nwDa3Z6CgIJi3CidKi77Dj2QnFYXSeB7Tyrf1IHeKbmFHQkIGb8F34mHqX4YsfO4g\naRsVqymQgimtoR8bOGCQioBGogcGJ0LuHnqoU747rmok7298ZpFqnIWYrxcBuvLL\nrObHMz2FXJystNWn/+JHjQjUhDeqdEXNLbkmioX+z4BOBxcmZoYxHJrkjhBNqzw=\n=vbnw\n-----END PGP SIGNATURE-----",
     parent => [
-      "8fd90f83295eb00b056f21ae65e7381920aea3bc"
+      "73dbff4c40d38f3d2b7be0476fd0cc40c2d29d15"
     ],
-    subject => "ol\303\241 (pt)",
-    tree => "33a90fc1da2f84bfc394fa886a3d70ae534dc03f"
+    subject => "",
+    tree => "524a684865d9b37e0a7236df14ccde01501f063d"
+  },
+  c9a1ee109ebce2a8ce1ed4dffaec9c691c4915f0 => {
+    author => "Example Author <author\@example.com> 1405523503 +0100",
+    body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    extra => "",
+    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQsAAoJEOX2RRt2IcQDDNwH/1vf113qFEZq04/i6ZN26sTc\ntTLK9n8Y4WbV+tj2MC930SsId1hn75OdFfHE6Lh4ZsMt8sBubCMPaWo1CnCmNcCr\nOWPiLvUj8WI6TC+ZuNCEAzKWVZsyWVn6pnUEQPjy1MOHKpKPFdPQpRi8VGs+dDja\nLR86J1ZuSbqY/4KWAPK9Q0QmYzHna8OlwdSJnY9s5tjyiGr6yDa7pnFd3nBrjbuo\nlDiOadBfEzJCF1jWmPeNPswVyXinPG006ki7zsc/za4ugUyE40Kvl+QGuM/OLJ6+\niOD7q9rror5t1Hr14hSBri9h4kpOP+qW/Ezx7DlnwF3tVB3X3JXsHFgthZW2ex8=\n=UxWl\n-----END PGP SIGNATURE-----",
+    mergetag => [
+      "object 73dbff4c40d38f3d2b7be0476fd0cc40c2d29d15\ntype commit\ntag v1.0.2\ntagger Example Committer <committer\@example.com> 1405527082 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQDSgsH/3GGToydJnBf9C3d5gXh8Tfg\nmpobajQ2dbjfZOkQSWXmUbZG0N8GDGZYR0FSXzExJD3whkNCbtnMKPgcryoTOSkI\ntozWoymtu0gHW43LXyHL/t5f3zFbRTLs6be97fJM0On0hK8ZnIKyDx8UvetlRsY7\nFgikiCbnzEzfNasNFprkElGB94btTXCErjhXbJaJ6qlNPfXKS/0qrCVv1WBSBUxR\nFvsUZEb5SH/It1saC3UNAftnPp1eZ4KjRUQC3li3XiGCGX6QWcE61C3A2BKPIApl\nzSyqA4IGz2/jwz+YEFx3DIapMN4u6LC83EC5Hgl+O4GRpjKI1CdgYGQHnwMMUW8=\n=Roel\n-----END PGP SIGNATURE-----"
+    ],
+    parent => [
+      "fa59af7668ae3358b1e23a47630fbec5f3f1ef50",
+      "73dbff4c40d38f3d2b7be0476fd0cc40c2d29d15"
+    ],
+    subject => "bom dia",
+    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
+  },
+  cb9416d5aae2ffdad123328812079a2302030dad => {
+    author => "Example Author <author\@example.com> 1405523506 +0100",
+    body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    extra => "",
+    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQsAAoJEOX2RRt2IcQDTxcH/2nJwnVN0XH/gEbtObhmf3R8\neOcMlYmNZAFS5Yw7H7oVRK6WGcRVs+dWFGCf9vF62nQxU41zICs5Y9ycjb5/VeJc\nb2+mXYjz6f6y3n3LsRKqQHjNnkCB7KCrxrSaCgjhploPCzZNSzlsJv1uZ/A5hBHt\nUC0qm4MPyjXvN4LW/S9j7X9xiNBnqTuC0scuacDk0sPZD4gf5lh41nSYBhIE/CeO\njtlmwnUdwPjnhAXGnat8GoAeOgvIR28b6ZfgdjJWigw/pJi87Uyk7gzwBkiUwD1Z\n9iQM9uBUQSctTiqg4hGLHRwEk+PUPmaitqySnM/D0d2DElRQYMXTUuuDMZB5AZE=\n=FYmK\n-----END PGP SIGNATURE-----",
+    mergetag => [
+      "object fc862ff3b0b4eb337e6ed714031c6cdeaa42ffd9\ntype commit\ntag v1.1.0\ntagger Example Committer <committer\@example.com> 1405527082 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQDHNEH/18O60/7Q2ALyrgQ0ArhBvUG\nM/El7f84thgfbwbYeDmg65zMrzy5B+8ny8TCSBgza7d2QICu4QTHk/UesiHftaSA\nauQpj57ky3rnZMEwepCiJmYyeVwHerDaNQm7ldqb3yktnj65dfbyHQ8M5IjeWAC6\nz7pH31gInps15hWTnJzlmkqQWPKHVxMQzSkY4oWUMltLi0YoEtgqtwTwH8heKBFQ\neDGHAjEgAxZanBF0yIN+OKWrPgPF6UFjvrtyxeJ8c5R5t/al1JwMi6ULRIjJ9BA0\nzQct7xpSNz8qncNfmiJHHfnwlHBT95nTvsatO+OZPNpvO9vFmr41QsklYsXrOGQ=\n=VnjD\n-----END PGP SIGNATURE-----",
+      "object 73dbff4c40d38f3d2b7be0476fd0cc40c2d29d15\ntype commit\ntag v1.0.2\ntagger Example Committer <committer\@example.com> 1405527082 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQDSgsH/3GGToydJnBf9C3d5gXh8Tfg\nmpobajQ2dbjfZOkQSWXmUbZG0N8GDGZYR0FSXzExJD3whkNCbtnMKPgcryoTOSkI\ntozWoymtu0gHW43LXyHL/t5f3zFbRTLs6be97fJM0On0hK8ZnIKyDx8UvetlRsY7\nFgikiCbnzEzfNasNFprkElGB94btTXCErjhXbJaJ6qlNPfXKS/0qrCVv1WBSBUxR\nFvsUZEb5SH/It1saC3UNAftnPp1eZ4KjRUQC3li3XiGCGX6QWcE61C3A2BKPIApl\nzSyqA4IGz2/jwz+YEFx3DIapMN4u6LC83EC5Hgl+O4GRpjKI1CdgYGQHnwMMUW8=\n=Roel\n-----END PGP SIGNATURE-----"
+    ],
+    parent => [
+      "6ba823ece3063b52e1d44cdde497332645fb49e0",
+      "fc862ff3b0b4eb337e6ed714031c6cdeaa42ffd9",
+      "73dbff4c40d38f3d2b7be0476fd0cc40c2d29d15"
+    ],
+    subject => "buon giorno (it)",
+    tree => "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+  },
+  e2a207202a60cec5968c315a3249fdb4831a5d08 => {
+    author => "Example Author <author\@example.com> 1405523504 +0100",
+    body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    extra => "",
+    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQsAAoJEOX2RRt2IcQDGfsH/jmgIgir/dqh6GnxqoHQxVCG\nWhQNAVv3fvods/nKX6mV8ZMh6omdFES9m7lWiT2ZKLfYzgyJwxEHSthGTK11gdRa\ngXmJHzdqul+/wjMpcL1LpR0vp3f73ylPsA2MsI0pLFj+wfxgr03VTWqjsxPMt3Z/\nqTvI3BA5B4moV9UDiQsjcKKxIMyRFxSzTX1RkOtkMedzXu/MBWhLJMJlNqWiiSRJ\nkC/J6RUHCKwHJMl/czbtfw9hFin2A6nPDqUXSlicQaeVN3M6Hop7p5B7FRyaG3M6\nC+NMmPofPN4V1DH3XArulyuc1GpfO55PpBzCPzamoRG5dCIiP2i/4eZOPcIqIMw=\n=UDPB\n-----END PGP SIGNATURE-----",
+    mergetag => [
+      "object 989960e0d2f4195927a505447b5e641c41373d7f\ntype commit\ntag v1.0.3\ntagger Example Committer <committer\@example.com> 1405527082 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQDwBsH/idcHUPXJ5K23FvyevuV+LcI\nRWcD7RyhQX5r8aYWfVDiu4VLW9IJuEV2wu/5yjI6x3hRBIry8+OR98rQ/ZXOXRP4\nJCVTogIzHv1wfdJzY3N8TyLQgBUyeqWOi+9RxkeLVYNLclEbQrccljfNepp0aLep\novt9MnK6iLMqeoOht2Ys+JCETB7x3qmahAhn4T0H8h2IiCKRXZxSzsVPrGEikpxx\nvQdnGiYK0A8wtslIR8Co+b+oKuPsRyiHHnehUikM1/pCTDS/53m2N4k/VFpxarXB\nJ+1NlhPJJsLCfahA93hjdKh/WR86+u/ODZix0rSC2bFTxRNf7hfiwFH/23NhSrI=\n=dfpU\n-----END PGP SIGNATURE-----"
+    ],
+    parent => [
+      "c9a1ee109ebce2a8ce1ed4dffaec9c691c4915f0",
+      "989960e0d2f4195927a505447b5e641c41373d7f"
+    ],
+    subject => "buen d\303\255a (es)",
+    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
+  },
+  f2da33588f3c5678fd1d6700b0b7a3b500e285a6 => {
+    author => "Example Author <author\@example.com> 1405523490 +0100",
+    body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    extra => "",
+    gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQDEuYH/01zbzM4PEOY5EnDkKGc3SjE\niwJi0BmNTeZ7gISm1leMS1alXBeqN/Ex91xW4O0sfDx1TpIPT4T1fY1rMiAEyNZu\nZJOF3zLtwB99b00XELButxkag6y89bPkLYOzHKku6t5FLldUNqMgRW4esrcuh4Fq\n0uPOySLF5ex8TcyRgIDILjyLf94mlaabVMtLWNxSeFkCgv10PjinFCxprEva+q/8\nynbJ7aRUYp5Tvg9b6MAxjQ//+C/1+IHzriXFZb1e0BdR6DfVO6noALwJhHMm8lgm\nPXxKu8RcIR89vpeKqsmqDISREWg5ia/lQTIe+eeuOyQvaqzpAST0LK9V2m44jcU=\n=VTqL\n-----END PGP SIGNATURE-----",
+    parent => [
+      "7bc08ae3886d74a575cd92c5f3877e481b45bb07"
+    ],
+    subject => "hej (da)",
+    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
+  },
+  f6812d818e65423551c0eb7ac899dbea5311eb56 => {
+    author => "Andr\303\251 <author\@example.com> 1405523492 +0100",
+    body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    extra => "",
+    parent => [
+      "0b2d9d33df9eebbbfea07fab53019f63571183c6"
+    ],
+    subject => "hall\303\263 (is)",
+    tree => "1840015fc84bf133760c966eed4c1b4047ea657a"
+  },
+  fa59af7668ae3358b1e23a47630fbec5f3f1ef50 => {
+    author => "Example Author <author\@example.com> 1405523502 +0100",
+    body => "",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    extra => "",
+    mergetag => [
+      "object 1f2e387e072680656acac623ea04e1b2b054e8c7\ntype commit\ntag v1.0.1\ntagger Example Committer <committer\@example.com> 1405527082 +0100\n\n\303\243\302\201\302\223\303\243\302\202\302\223\303\243\302\201\302\253\303\243\302\201\302\241\303\243\302\201\302\257\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQD70AIAI89r83aW3hwj5x4HXx+xj8p\nT/hdAtdkv86j4M3Wi1eJ6BDwmEa0ZwW+Zsxd8ucal7/pprpI68ZkGNoJdgjrJIKO\nD8MkEl9US2ZhM5xtRAjlGqWcVj9KRW09dSHiI7NBhDDrazdZb2sd9HKFrP+RTFIy\n1OzftuOSZfN05pHfKHEwpE96pfQC/EjcY8EL3cJT8MofQbeIGRAJEopcVC4mDHIk\nkW5UtwlYuof31lfq1pePzwcXbuW0Iu9rgEXM5Fi5UMk7YAqSVyhDd1OBAeLID5Xg\nYSizb5DuL6TuK8d3zCQkZohwIzx/a7noLeY9c7c8IqNEJ0GLRC4bJCISZR9h9p8=\n=pEp9\n-----END PGP SIGNATURE-----"
+    ],
+    parent => [
+      "fc862ff3b0b4eb337e6ed714031c6cdeaa42ffd9",
+      "1f2e387e072680656acac623ea04e1b2b054e8c7"
+    ],
+    subject => "dobr\303\275 den (cs)",
+    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
+  },
+  fc862ff3b0b4eb337e6ed714031c6cdeaa42ffd9 => {
+    author => "Example Author <author\@example.com> 1405523500 +0100",
+    body => "signed tag\n\n# gpg: Signature made Wed Jul 16 18:11:23 2014 CEST using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n",
+    committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    extra => "",
+    mergetag => [
+      "object f6812d818e65423551c0eb7ac899dbea5311eb56\ntype commit\ntag v1.0.0\ntagger Example Committer <committer\@example.com> 1405527082 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQD1hwH/3JQsd1XnB4p7LBlR6YwhJzd\n68cvB7pgPMURk9a6LpxvOIhwAwg6BQtzPvMOL4KPrUuymAsQAjjtH6Qfc99O+V+F\nOrGPn5EL7LerUT0NUQjeHRfgX0p73QYQTEf3Ua8wNkiVyxD7paAgIQ19SzRIRk6B\ngGf4Tjn9wxDddRC0AiBwavocsMYiHW1r1LyC27KLeP46xTZGM/oqOs4h5XPqfrtT\npGvLrcE1WqwlhK3vAS6mDObzTfrMWiMR7FDMPPBM0m9yiCW4aBZ0gguUZOi1hq0x\nItzZcHRQ7ougAlfuaj/J9K5zaaaziF71ptb+3OlHnidmGSSTYrHtn/A7ZOSh2MI=\n=+KXN\n-----END PGP SIGNATURE-----"
+    ],
+    parent => [
+      "f2da33588f3c5678fd1d6700b0b7a3b500e285a6",
+      "f6812d818e65423551c0eb7ac899dbea5311eb56"
+    ],
+    subject => "Merge tag 'v1.0.0'",
+    tree => "7b8f01341e59251bbf067b1001cdd12f44c36847"
   }
 );
