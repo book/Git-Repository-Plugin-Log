@@ -8,24 +8,24 @@ consult the changelog for that distribution.
 {{$NEXT}}
 
 1.311 Fri Apr 25 2014
-        [TESTS]
-        - output the git version, to help debug FAIL reports
-        - change the test bundle to use "SJIS" instead of "shift-jis" encoding
-        [DOCUMENTATION]
-        - simplify the titles when documenting methods and functions
+    [TESTS]
+    - output the git version, to help debug FAIL reports
+    - change the test bundle to use "SJIS" instead of "shift-jis" encoding
+    [DOCUMENTATION]
+    - simplify the titles when documenting methods and functions
 
 1.310 Tue Nov 5 2013
-        [ENHANCEMENTS]
-        - Git::Repository::Log now properly handles commits where the
-          author or committer name is empty
+    [ENHANCEMENTS]
+    - Git::Repository::Log now properly handles commits where the
+      author or committer name is empty
 
 1.309 Sun Nov 3 2013
-        [ENHANCEMENTS]
-        - the mergetag key is now an array reference, to support
-          commits with multiple mergetag headers
-        [TESTS]
-        - tested using a bundle containing several very special cases
-          (see http://github.com/book/git-test-repo-tool/)
-        [PACKAGING]
-        - split into its own distribution as of Git-Repository 1.309
-          (and Git-Repository-Plugin-Log 1.309)
+    [ENHANCEMENTS]
+    - the mergetag key is now an array reference, to support
+      commits with multiple mergetag headers
+    [TESTS]
+    - tested using a bundle containing several very special cases
+      (see http://github.com/book/git-test-repo-tool/)
+    [PACKAGING]
+    - split into its own distribution as of Git-Repository 1.309
+      (and Git-Repository-Plugin-Log 1.309)
