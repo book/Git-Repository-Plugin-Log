@@ -36,6 +36,17 @@ sub new {
     bless { cmd => $cmd, fh => $cmd->stdout }, $class;
 }
 
+sub new_from_fh {
+    my ( $class, $fh ) = @_;
+    bless { fh => $fh }, $class;
+}
+
+sub new_from_file {
+    my ( $class, $file ) = @_;
+    open my $fh, '<', $file or die "Can't open $file: $!";
+    bless { fh => $fh }, $class;
+}
+
 sub next {
     my ($self) = @_;
     my $fh = $self->{fh};
@@ -142,6 +153,19 @@ The filehandle from which the output of B<git log> is actually read.
 This is the only attribute needed to run the L</next> method.
 
 =back
+
+=head2 new_from_fh
+
+It's also possible to provide the filehandle directly using this method.
+
+The C<cmd> key is then not be defined.
+
+=head2 new_from_file
+
+It's also possible to provide a filename that will be C<open()>ed to produce
+a filehandle, using this method.
+
+The C<cmd> key is then not be defined.
 
 =head2 next
 
