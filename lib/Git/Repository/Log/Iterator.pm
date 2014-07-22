@@ -32,12 +32,13 @@ sub new {
     @cmd = ( 'log', '--pretty=raw', @cmd );
 
     # run the command (@cmd may hold a Git::Repository instance)
-    bless { cmd => Git::Repository::Command->new(@cmd) }, $class;
+    my $cmd = Git::Repository::Command->new(@cmd);
+    bless { cmd => $cmd, fh => $cmd->stdout }, $class;
 }
 
 sub next {
     my ($self) = @_;
-    my $fh = $self->{cmd}->stdout;
+    my $fh = $self->{fh};
 
     # get records
     my @records = defined $self->{record} ? ( delete $self->{record} ) : ();
@@ -49,8 +50,16 @@ sub next {
         }
     }
 
-    # EOF - no output left, but might catch errors
-    return $self->{cmd}->final_output() if !@records;
+    # EOF
+    if ( !@records ) {
+        if ( $self->{cmd} ) {    # might catch some git errors
+            $self->{cmd}->final_output();
+        }
+        else {                   # just close the filehandle
+            $self->{fh}->close;
+        }
+        return;
+    }
 
     # the first two records are always the same, with --pretty=raw
     local $/ = "\n";
@@ -116,6 +125,23 @@ the L<Git::Repository::Log> object. Decorations will be lost.
 When unsupported options are recognized in the parameter list, C<new()>
 will C<croak()> with a message advising to use C<< run( 'log' => ... ) >>
 to parse the output yourself.
+
+The object is really a blessed hash reference, with only two keys:
+
+=over 4
+
+=item cmd
+
+The L<Git::Repository::Command> object running the actual B<git log>
+command. It might not be defined in some cases (see below L</new_from_fh>
+and L</new_from_file>).
+
+=item fh
+
+The filehandle from which the output of B<git log> is actually read.
+This is the only attribute needed to run the L</next> method.
+
+=back
 
 =head2 next
 
