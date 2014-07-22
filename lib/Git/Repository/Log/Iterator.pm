@@ -156,16 +156,16 @@ This is the only attribute needed to run the L</next> method.
 
 =head2 new_from_fh
 
-It's also possible to provide the filehandle directly using this method.
+This constructor makes it possible to provide the filehandle directly.
 
-The C<cmd> key is then not be defined.
+The C<cmd> key is not defined when using this constructor.
 
 =head2 new_from_file
 
-It's also possible to provide a filename that will be C<open()>ed to produce
-a filehandle, using this method.
+This constructor makes it possible to provide a filename that will be
+C<open()>ed to produce a filehandle to read the log stream from.
 
-The C<cmd> key is then not be defined.
+The C<cmd> key is not defined when using this constructor.
 
 =head2 next
 
