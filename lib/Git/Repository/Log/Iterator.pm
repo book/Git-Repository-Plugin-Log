@@ -49,7 +49,7 @@ sub next {
         }
     }
 
-    # EOF
+    # EOF - no output left, but might catch errors
     return $self->{cmd}->final_output() if !@records;
 
     # the first two records are always the same, with --pretty=raw
