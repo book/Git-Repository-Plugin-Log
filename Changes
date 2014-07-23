@@ -7,6 +7,15 @@ consult the changelog for that distribution.
 
 {{$NEXT}}
 
+1.312 Wed Jul 23 2014
+    [ENHANCEMENTS]
+    - new Git::Repository::Log::Iterator constructors new_from_fh() and
+      new_from_file() to enable dealing with log stream directly
+    - the new 'fh' attribute to Git::Repository::Log::Iterator provides
+      direct access to the filehandle if needed (see RT #97045)
+    [TESTS]
+    - update the test bundle
+
 1.311 Fri Apr 25 2014
     [TESTS]
     - output the git version, to help debug FAIL reports
