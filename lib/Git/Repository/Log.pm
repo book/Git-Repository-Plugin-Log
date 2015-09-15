@@ -14,7 +14,7 @@ for my $attr (
     committer_localtime committer_tz committer_gmtime
     raw_message message subject body
     gpgsig
-    extra
+    decoration extra
     )
     )
 {
@@ -41,7 +41,10 @@ sub new {
     }
 
     # special case
-    $self->{commit} = (split /\s/, $self->{commit} )[0];
+    ($self->{commit}, $self->{decoration}) = split /\s/, $self->{commit}, 2;
+    # remove outer parens from decoration, if any
+    # e.g. "(HEAD -> master, tag: foo, origin/master, origin/HEAD)"
+    $self->{decoration} =~ s/^\((.*)\)$/$1/ if $self->{decoration};
 
     # compute other keys
     $self->{raw_message} = $self->{message};
@@ -100,7 +103,7 @@ C<git log --pretty=raw>):
 
 =item commit
 
-The commit id (ignoring the extra information added by I<--decorate>).
+The commit id (Any extra information added by I<--decorate> is available via the L</decoration> method.).
 
 =item tree
 
@@ -226,6 +229,11 @@ The unindented version of the log message.
 =head2 Extra information
 
 =over 4
+
+=item decoration
+
+Tag and branch ref information added by git when the C<--decorate> option is used.
+The outer parens are removed for convenience.
 
 =item extra
 
