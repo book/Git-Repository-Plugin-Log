@@ -37,12 +37,20 @@ has_git('1.5.1');
     plan tests => 9 * scalar keys %commit;
 }
 
-# clean up the environment
-delete @ENV{qw( GIT_DIR GIT_WORK_TREE )};
-$ENV{LC_ALL} = 'C';    # git log will output utf-8
+# setup the environment
+my %env = (
+
+    # ensure local configs won't interfere
+    GIT_CONFIG_NOSYSTEM => 1,
+    XDG_CONFIG_HOME     => undef,
+    HOME                => undef,
+
+    # git log will output utf-8
+    LC_ALL => 'C',
+);
 
 # first create a new empty repository
-my $r = test_repository;
+my $r = test_repository( git => { env => \%env } );
 
 # now load the bundle
 my @refs = $r->run(

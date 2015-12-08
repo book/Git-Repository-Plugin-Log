@@ -13,18 +13,28 @@ has_git('1.5.0.rc1');
 my $version = Git::Repository->version;
 diag "git version $version";
 
-# clean up the environment
-delete @ENV{qw( GIT_DIR GIT_WORK_TREE )};
-$ENV{LC_ALL}              = 'C';
-$ENV{GIT_AUTHOR_NAME}     = 'Test Author';
-$ENV{GIT_AUTHOR_EMAIL}    = 'test.author@example.com';
-$ENV{GIT_COMMITTER_NAME}  = 'Test Committer';
-$ENV{GIT_COMMITTER_EMAIL} = 'test.committer@example.com';
+# setup the environment
+my %env = (
+
+    # ensure local configs won't interfere
+    GIT_CONFIG_NOSYSTEM => 1,
+    XDG_CONFIG_HOME     => undef,
+    HOME                => undef,
+
+    # no locale
+    LC_ALL => 'C',
+
+    # author / committer
+    GIT_AUTHOR_NAME     => 'Test Author',
+    GIT_AUTHOR_EMAIL    => 'test.author@example.com',
+    GIT_COMMITTER_NAME  => 'Test Committer',
+    GIT_COMMITTER_EMAIL => 'test.committer@example.com',
+);
 
 plan tests => my $tests;
 
 # first create a new empty repository
-my $r      = test_repository;
+my $r      = test_repository( git => { env => \%env } );
 my $dir    = $r->work_tree;
 my $gitdir = $r->git_dir;
 
