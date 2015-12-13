@@ -14,14 +14,15 @@ for my $attr (
     committer_localtime committer_tz committer_gmtime
     raw_message message subject body
     gpgsig
-    decoration extra
+    decoration decoration_HEAD
+    extra
     )
     )
 {
     no strict 'refs';
     *$attr = sub { return $_[0]{$attr} };
 }
-for my $attr (qw( parent mergetag )) {
+for my $attr (qw( parent mergetag decoration_tags decoration_heads )) {
     no strict 'refs';
     *$attr = sub { return @{ $_[0]{$attr} || [] } };
 }
@@ -42,9 +43,20 @@ sub new {
 
     # special case
     ($self->{commit}, $self->{decoration}) = split /\s/, $self->{commit}, 2;
-    # remove outer parens from decoration, if any
-    # e.g. "(HEAD -> master, tag: foo, origin/master, origin/HEAD)"
-    $self->{decoration} =~ s/^\((.*)\)$/$1/ if $self->{decoration};
+
+    if ( $self->{decoration} ) {
+
+        # remove outer parens from decoration, if any
+        # e.g. "(HEAD -> master, tag: foo, origin/master, origin/HEAD)"
+        $self->{decoration} =~ s/^\((.*)\)$/$1/;
+
+        # compute each type of decoration
+        for ( split /, /, $self->{decoration} ) {
+            /tag: (.*)/ && do { push @{ $self->{decoration_tags} }, $1; next };
+            /HEAD -> (.*)/ && do { $self->{decoration_HEAD} = $1; next };
+            push @{ $self->{decoration_heads} }, $_;
+        }
+    }
 
     # compute other keys
     $self->{raw_message} = $self->{message};
