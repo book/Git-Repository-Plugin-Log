@@ -5,7 +5,7 @@ use Git::Repository::Log;
 
 # no need for git here
 my @tests = (
-    [   [   commit => '2bb91232215d1863c6b8cb3737d8d8ed952f0210',
+    [   [   commit => '2bb91232215d1863c6b8cb3737d8d8ed952f0210 (HEAD -> master)',
             tree   => '23a9197db125bb757e80462639cd7a2b288a9473',
             parent => 'd747608fb582710f1d6885e0a94c585024ae44bc',
             author =>
@@ -65,6 +65,10 @@ index 86a12a9..4766ee3 100644
  t/pod-coverage.t
  t/pod.t
 EXTRA
+            decoration          => 'HEAD -> master',
+            decoration_HEAD     => 'master',
+            decoration_heads    => [],
+            decoration_tags     => [],
         }
     ],
     [   [   commit => 'f4ceeb0b81da0ae70388340f41dd574db585778b',
@@ -121,6 +125,10 @@ Conflicts:
     lib/Git/Repository.pm
 BODY
             extra => '',
+            decoration          => '',
+            decoration_HEAD     => '',
+            decoration_heads    => [],
+            decoration_tags     => [],
         }
     ],
     [   [   commit => '940ca54b6b3ac6a3c03349c8b4515b5536064068',
@@ -155,6 +163,10 @@ BODY
             subject             => "small POD copyedit",
             body                => '',
             extra               => '',
+            decoration          => '',
+            decoration_HEAD     => '',
+            decoration_heads    => [],
+            decoration_tags     => [],
         },
     ]
 );
