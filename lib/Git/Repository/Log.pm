@@ -249,8 +249,20 @@ The unindented version of the log message.
 
 =item decoration
 
-Tag and branch ref information added by git when the C<--decorate> option is used.
+Tag and branch reference information added by git when the C<--decorate> option is used.
 The outer parens are removed for convenience.
+
+=item decoration_HEAD
+
+The name of the branch pointed to by the C<HEAD> in the decoration.
+
+=item decoration_tags
+
+The list of tags included in the decoration.
+
+=item decoration_heads
+
+The list of heads included in the decoration.
 
 =item extra
 
