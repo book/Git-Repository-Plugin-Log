@@ -41,8 +41,12 @@ sub new {
         }
     }
 
-    # special case
+    # commit + decoration
     ($self->{commit}, $self->{decoration}) = split /\s/, $self->{commit}, 2;
+
+    $self->{decoration_HEAD}  = '';
+    $self->{decoration_tags}  = [];
+    $self->{decoration_heads} = [];
 
     if ( $self->{decoration} ) {
 
@@ -57,6 +61,7 @@ sub new {
             push @{ $self->{decoration_heads} }, $_;
         }
     }
+    else { $self->{decoration} = ''; }
 
     # compute other keys
     $self->{raw_message} = $self->{message};
