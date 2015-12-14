@@ -32,9 +32,25 @@ has_git('1.5.1');
             $commit->{mergetag} || [],
             "commit $id mergetag"
         );
+        is( $log->decoration, $commit->{decoration}, "commit $id decoration" );
+        is(
+            $log->decoration_HEAD,
+            $commit->{decoration_HEAD},
+            "commit $id decoration_HEAD"
+        );
+        is_deeply(
+            [ $log->decoration_heads],
+            $commit->{decoration_heads} || [],
+            "commit $id decoration_heads"
+        );
+        is_deeply(
+            [ $log->decoration_tags],
+            $commit->{decoration_tags} || [],
+            "commit $id decoration_tags"
+        );
     }
 
-    plan tests => 9 * scalar keys %commit;
+    plan tests => 13 * scalar keys %commit;
 }
 
 # clean up the environment
@@ -57,7 +73,7 @@ for my $line (@refs) {
 }
 
 # test!
-my $iter = $r->log('--all');
+my $iter = $r->log('--all', '--decorate');
 while ( my $log = $iter->next ) {
     check_commit($log);
 }

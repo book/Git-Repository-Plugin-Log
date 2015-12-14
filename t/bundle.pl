@@ -3,6 +3,10 @@
     author => "Example Author <author\@example.com> 1405523491 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [],
     extra => "",
     parent => [
       "32defe32456a053a9c391cdcf9a4292af6d3c80a"
@@ -14,6 +18,12 @@
     author => "Example Author <author\@example.com> 1405523494 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "tag: v1.0.1",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [
+      "v1.0.1"
+    ],
     extra => "",
     parent => [
       "f6812d818e65423551c0eb7ac899dbea5311eb56"
@@ -25,6 +35,10 @@
     author => " <author\@example.com> 1405523483 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [],
     extra => "",
     parent => [],
     subject => "hello (en)",
@@ -34,6 +48,10 @@
     author => "Example Author <author\@example.com> 1405523488 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [],
     extra => "",
     parent => [
       "6015b6a34038fd16fa8393a066493e6fcc9a174a",
@@ -46,6 +64,12 @@
     author => "Example Author <author\@example.com> 1405523505 +0100",
     body => "# tag 'v1.1.0'\nsigned tag\n\n# gpg: Signature made Wed Jul 16 18:11:23 2014 CEST using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n\n# tag 'v1.0.1'\n\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257\n\n# gpg: Signature made Wed Jul 16 18:11:23 2014 CEST using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "mergetags",
+    decoration_HEAD => "",
+    decoration_heads => [
+      "mergetags"
+    ],
+    decoration_tags => [],
     extra => "",
     mergetag => [
       "object fc862ff3b0b4eb337e6ed714031c6cdeaa42ffd9\ntype commit\ntag v1.1.0\ntagger Example Committer <committer\@example.com> 1405527082 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQDHNEH/18O60/7Q2ALyrgQ0ArhBvUG\nM/El7f84thgfbwbYeDmg65zMrzy5B+8ny8TCSBgza7d2QICu4QTHk/UesiHftaSA\nauQpj57ky3rnZMEwepCiJmYyeVwHerDaNQm7ldqb3yktnj65dfbyHQ8M5IjeWAC6\nz7pH31gInps15hWTnJzlmkqQWPKHVxMQzSkY4oWUMltLi0YoEtgqtwTwH8heKBFQ\neDGHAjEgAxZanBF0yIN+OKWrPgPF6UFjvrtyxeJ8c5R5t/al1JwMi6ULRIjJ9BA0\nzQct7xpSNz8qncNfmiJHHfnwlHBT95nTvsatO+OZPNpvO9vFmr41QsklYsXrOGQ=\n=VnjD\n-----END PGP SIGNATURE-----",
@@ -63,6 +87,10 @@
     author => "Example Author <author\@example.com> 1405523506 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "HEAD -> master",
+    decoration_HEAD => "master",
+    decoration_heads => [],
+    decoration_tags => [],
     extra => "",
     parent => [
       "e2a207202a60cec5968c315a3249fdb4831a5d08"
@@ -74,6 +102,10 @@
     author => "Andr\303\251 <author\@example.com> 1405523484 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [],
     extra => "",
     parent => [
       "255a1a6e669ab3b04fd53d26c3ffcdfe16d83a3e"
@@ -85,6 +117,10 @@
     author => "Example Author <author\@example.com> 1405523485 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [],
     extra => "",
     parent => [],
     subject => "empty tree",
@@ -94,6 +130,12 @@
     author => "Example Author <author\@example.com> 1405523496 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "tag: v1.0.2",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [
+      "v1.0.2"
+    ],
     extra => "",
     gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQDUpIIAIkOUvX3834rFJcF18rEmfue\nzIFNi3C12S/G6APTg6V2WlwuVtJF6tFc4JScwzgFm4bYrb2JWOaIvAhjNlTnfhxf\nC+UTYcoxxYQKtPdyBNH9dafyrAnxo8FMoVpm/eYbj5rq5ZBlxEIXas8AV0VTK4au\nCzjg73Pib0STVbtF8MqW4KxFfucI770pv9Oj7aZX8WFWzpQZiyGJMiAu/c6Ajeob\nkNtgSvr5OweVKWVdG7EwV4tAtck6tLoJHpOh1CUFORPW3IEjcTPGtAVFDVYiKq/Y\n905mbcbhL0ljoB1iBsQ1xFMZWN2aX75xOhMwQakRGp20UiZuKhd4Fjm2421aMzU=\n=3WvP\n-----END PGP SIGNATURE-----",
     parent => [
@@ -106,6 +148,10 @@
     author => "Example Author <author\@example.com> 1405523489 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [],
     extra => "",
     parent => [
       "32defe32456a053a9c391cdcf9a4292af6d3c80a"
@@ -117,6 +163,14 @@
     author => "Example Author <author\@example.com> 1405523498 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "tag: v1.0.3, encoding",
+    decoration_HEAD => "",
+    decoration_heads => [
+      "encoding"
+    ],
+    decoration_tags => [
+      "v1.0.3"
+    ],
     extra => "",
     parent => [
       "73dbff4c40d38f3d2b7be0476fd0cc40c2d29d15"
@@ -128,6 +182,10 @@
     author => "Example Author <author\@example.com> 1405523503 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [],
     extra => "",
     gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQsAAoJEOX2RRt2IcQDDNwH/1vf113qFEZq04/i6ZN26sTc\ntTLK9n8Y4WbV+tj2MC930SsId1hn75OdFfHE6Lh4ZsMt8sBubCMPaWo1CnCmNcCr\nOWPiLvUj8WI6TC+ZuNCEAzKWVZsyWVn6pnUEQPjy1MOHKpKPFdPQpRi8VGs+dDja\nLR86J1ZuSbqY/4KWAPK9Q0QmYzHna8OlwdSJnY9s5tjyiGr6yDa7pnFd3nBrjbuo\nlDiOadBfEzJCF1jWmPeNPswVyXinPG006ki7zsc/za4ugUyE40Kvl+QGuM/OLJ6+\niOD7q9rror5t1Hr14hSBri9h4kpOP+qW/Ezx7DlnwF3tVB3X3JXsHFgthZW2ex8=\n=UxWl\n-----END PGP SIGNATURE-----",
     mergetag => [
@@ -144,6 +202,12 @@
     author => "Example Author <author\@example.com> 1405523506 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "slave",
+    decoration_HEAD => "",
+    decoration_heads => [
+      "slave"
+    ],
+    decoration_tags => [],
     extra => "",
     gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQsAAoJEOX2RRt2IcQDTxcH/2nJwnVN0XH/gEbtObhmf3R8\neOcMlYmNZAFS5Yw7H7oVRK6WGcRVs+dWFGCf9vF62nQxU41zICs5Y9ycjb5/VeJc\nb2+mXYjz6f6y3n3LsRKqQHjNnkCB7KCrxrSaCgjhploPCzZNSzlsJv1uZ/A5hBHt\nUC0qm4MPyjXvN4LW/S9j7X9xiNBnqTuC0scuacDk0sPZD4gf5lh41nSYBhIE/CeO\njtlmwnUdwPjnhAXGnat8GoAeOgvIR28b6ZfgdjJWigw/pJi87Uyk7gzwBkiUwD1Z\n9iQM9uBUQSctTiqg4hGLHRwEk+PUPmaitqySnM/D0d2DElRQYMXTUuuDMZB5AZE=\n=FYmK\n-----END PGP SIGNATURE-----",
     mergetag => [
@@ -162,6 +226,10 @@
     author => "Example Author <author\@example.com> 1405523504 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [],
     extra => "",
     gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQsAAoJEOX2RRt2IcQDGfsH/jmgIgir/dqh6GnxqoHQxVCG\nWhQNAVv3fvods/nKX6mV8ZMh6omdFES9m7lWiT2ZKLfYzgyJwxEHSthGTK11gdRa\ngXmJHzdqul+/wjMpcL1LpR0vp3f73ylPsA2MsI0pLFj+wfxgr03VTWqjsxPMt3Z/\nqTvI3BA5B4moV9UDiQsjcKKxIMyRFxSzTX1RkOtkMedzXu/MBWhLJMJlNqWiiSRJ\nkC/J6RUHCKwHJMl/czbtfw9hFin2A6nPDqUXSlicQaeVN3M6Hop7p5B7FRyaG3M6\nC+NMmPofPN4V1DH3XArulyuc1GpfO55PpBzCPzamoRG5dCIiP2i/4eZOPcIqIMw=\n=UDPB\n-----END PGP SIGNATURE-----",
     mergetag => [
@@ -178,6 +246,10 @@
     author => "Example Author <author\@example.com> 1405523490 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [],
     extra => "",
     gpgsig => "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQDEuYH/01zbzM4PEOY5EnDkKGc3SjE\niwJi0BmNTeZ7gISm1leMS1alXBeqN/Ex91xW4O0sfDx1TpIPT4T1fY1rMiAEyNZu\nZJOF3zLtwB99b00XELButxkag6y89bPkLYOzHKku6t5FLldUNqMgRW4esrcuh4Fq\n0uPOySLF5ex8TcyRgIDILjyLf94mlaabVMtLWNxSeFkCgv10PjinFCxprEva+q/8\nynbJ7aRUYp5Tvg9b6MAxjQ//+C/1+IHzriXFZb1e0BdR6DfVO6noALwJhHMm8lgm\nPXxKu8RcIR89vpeKqsmqDISREWg5ia/lQTIe+eeuOyQvaqzpAST0LK9V2m44jcU=\n=VTqL\n-----END PGP SIGNATURE-----",
     parent => [
@@ -190,6 +262,12 @@
     author => "Andr\303\251 <author\@example.com> 1405523492 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "tag: v1.0.0",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [
+      "v1.0.0"
+    ],
     extra => "",
     parent => [
       "0b2d9d33df9eebbbfea07fab53019f63571183c6"
@@ -201,6 +279,10 @@
     author => "Example Author <author\@example.com> 1405523502 +0100",
     body => "",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [],
     extra => "",
     mergetag => [
       "object 1f2e387e072680656acac623ea04e1b2b054e8c7\ntype commit\ntag v1.0.1\ntagger Example Committer <committer\@example.com> 1405527082 +0100\n\n\303\243\302\201\302\223\303\243\302\202\302\223\303\243\302\201\302\253\303\243\302\201\302\241\303\243\302\201\302\257\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQD70AIAI89r83aW3hwj5x4HXx+xj8p\nT/hdAtdkv86j4M3Wi1eJ6BDwmEa0ZwW+Zsxd8ucal7/pprpI68ZkGNoJdgjrJIKO\nD8MkEl9US2ZhM5xtRAjlGqWcVj9KRW09dSHiI7NBhDDrazdZb2sd9HKFrP+RTFIy\n1OzftuOSZfN05pHfKHEwpE96pfQC/EjcY8EL3cJT8MofQbeIGRAJEopcVC4mDHIk\nkW5UtwlYuof31lfq1pePzwcXbuW0Iu9rgEXM5Fi5UMk7YAqSVyhDd1OBAeLID5Xg\nYSizb5DuL6TuK8d3zCQkZohwIzx/a7noLeY9c7c8IqNEJ0GLRC4bJCISZR9h9p8=\n=pEp9\n-----END PGP SIGNATURE-----"
@@ -216,6 +298,12 @@
     author => "Example Author <author\@example.com> 1405523500 +0100",
     body => "signed tag\n\n# gpg: Signature made Wed Jul 16 18:11:23 2014 CEST using RSA key ID 7621C403\n# gpg: Good signature from \"Example Author <author\@example.com>\"\n",
     committer => "Example Committer <committer\@example.com> 1405527082 +0100",
+    decoration => "tag: v1.1.0",
+    decoration_HEAD => "",
+    decoration_heads => [],
+    decoration_tags => [
+      "v1.1.0"
+    ],
     extra => "",
     mergetag => [
       "object f6812d818e65423551c0eb7ac899dbea5311eb56\ntype commit\ntag v1.0.0\ntagger Example Committer <committer\@example.com> 1405527082 +0100\n\nsigned tag\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.12 (GNU/Linux)\n\niQEcBAABAgAGBQJTxqQrAAoJEOX2RRt2IcQD1hwH/3JQsd1XnB4p7LBlR6YwhJzd\n68cvB7pgPMURk9a6LpxvOIhwAwg6BQtzPvMOL4KPrUuymAsQAjjtH6Qfc99O+V+F\nOrGPn5EL7LerUT0NUQjeHRfgX0p73QYQTEf3Ua8wNkiVyxD7paAgIQ19SzRIRk6B\ngGf4Tjn9wxDddRC0AiBwavocsMYiHW1r1LyC27KLeP46xTZGM/oqOs4h5XPqfrtT\npGvLrcE1WqwlhK3vAS6mDObzTfrMWiMR7FDMPPBM0m9yiCW4aBZ0gguUZOi1hq0x\nItzZcHRQ7ougAlfuaj/J9K5zaaaziF71ptb+3OlHnidmGSSTYrHtn/A7ZOSh2MI=\n=+KXN\n-----END PGP SIGNATURE-----"
