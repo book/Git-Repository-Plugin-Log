@@ -7,7 +7,7 @@ use 5.006;
 # a few simple accessors
 for my $attr (
     qw(
-    commit tree
+    commit diff_from tree
     author author_name author_email
     committer committer_name committer_email
     author_localtime author_tz author_gmtime
@@ -41,7 +41,7 @@ sub new {
     }
 
     # special case
-    $self->{commit} = (split /\s/, $self->{commit} )[0];
+    ($self->{commit}, $self->{diff_from}) = $self->{commit} =~ /^(\S+)(?: \(from (\S+)\))?/;
 
     # compute other keys
     $self->{raw_message} = $self->{message};
