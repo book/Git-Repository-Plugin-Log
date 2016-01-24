@@ -179,7 +179,12 @@ SKIP: {
 my @badopts;
 
 BEGIN {
-    @badopts = ( [qw( --pretty=oneline )], [qw( --graph )], );
+    @badopts = (
+        [qw( --pretty=oneline )],
+        [qw( --graph )],
+        [qw( --format=medium )],
+        [qw( --oneline)],
+    );
     $tests += 2 * @badopts;
 }
 for my $badopt (@badopts) {
