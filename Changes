@@ -7,6 +7,23 @@ consult the changelog for that distribution.
 
 {{$NEXT}}
 
+1.313 Tue Jan 26 2016
+    [ENHANCEMENTS]
+    - Add some more unsupported options to Git::Repository::Log::Iterator
+      constructor's blacklist (BJAKUBSKI, via the January 2016 CPAN PRC)
+    - Parse 'from' field in the commit line, and add it as the 'diff_from'
+      attribute to Git::Repository::Log (VYF)
+    - Minor documentation improvements
+    [TESTS]
+    - Prevent system/global configs from messing with test expectations
+    - Add [Prereqs / TestRequires] section to dist.ini
+      (PSCUST, via the October 2015 CPAN PRC)
+    - Use Test::ReportPrereqs instead of ReportVersions::Tiny
+    [ACKNOWLEDGEMENT]
+    - Thanks to NEILB for organizing the CPAN Pull Request Contest,
+      which brought several contributions to this release.
+      Check out http://cpan-prc.org/ and join the fun!
+
 1.312 Wed Jul 23 2014
     [ENHANCEMENTS]
     - new Git::Repository::Log::Iterator constructors new_from_fh() and
