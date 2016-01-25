@@ -90,9 +90,13 @@ sub next {
 
 1;
 
-# ABSTRACT: Split a git log stream into records
+__END__
 
 =pod
+
+=head1 NAME
+
+Git::Repository::Log::Iterator - Split a git log stream into records
 
 =head1 SYNOPSIS
 

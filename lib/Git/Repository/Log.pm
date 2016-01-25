@@ -65,9 +65,13 @@ sub new {
 
 1;
 
-# ABSTRACT: Class representing git log data
+__END__
 
 =pod
+
+=head1 NAME
+
+Git::Repository::Log - Class representing git log data
 
 =head1 SYNOPSIS
 

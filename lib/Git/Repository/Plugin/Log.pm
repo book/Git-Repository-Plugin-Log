@@ -31,9 +31,13 @@ sub log {
 
 1;
 
-# ABSTRACT: Add a log() method to Git::Repository
+__END__
 
 =pod
+
+=head1 NAME
+
+Git::Repository::Plugin::Log - Add a log() method to Git::Repository
 
 =head1 SYNOPSIS
 
