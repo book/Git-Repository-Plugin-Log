@@ -86,17 +86,17 @@ Git::Repository::Log - Class representing git log data
 
 =head1 DESCRIPTION
 
-L<Git::Repository::Log> is a class whose instances represent
+C<Git::Repository::Log> is a class whose instances represent
 log items from a B<git log> stream.
 
 =head1 CONSTRUCTOR
 
 This method shouldn't be used directly. L<Git::Repository::Log::Iterator>
-should be the preferred way to create L<Git::Repository::Log> objects.
+should be the preferred way to create C<Git::Repository::Log> objects.
 
 =head2 new
 
-Create a new L<Git::Repository::Log> instance, using the list of key/values
+Create a new C<Git::Repository::Log> instance, using the list of key/values
 passed as parameters. The supported keys are (from the output of
 C<git log --pretty=raw>):
 

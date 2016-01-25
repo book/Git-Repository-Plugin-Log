@@ -115,7 +115,7 @@ Git::Repository::Log::Iterator - Split a git log stream into records
 
 =head1 DESCRIPTION
 
-L<Git::Repository::Log::Iterator> initiates a B<git log> command
+C<Git::Repository::Log::Iterator> initiates a B<git log> command
 from a list of paramaters and parses its output to produce
 L<Git::Repository::Log> objects represening each log item.
 
@@ -129,7 +129,7 @@ Create a new B<git log> stream from the parameter list in C<@args>
 and return a iterator on it.
 
 C<new()> will happily accept any parameters, but note that
-L<Git::Repository::Log::Iterator> expects the output to look like that
+C<Git::Repository::Log::Iterator> expects the output to look like that
 of C<--pretty=raw>, and so will force the the C<--pretty> option
 (in case C<format.pretty> is defined in the Git configuration).
 It will also forcibly remove colored output (using C<--color=never>).
