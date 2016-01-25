@@ -145,7 +145,8 @@ commit several times.
 
 =item extra
 
-Any extra text that might be added by extra options passed to B<git log>.
+Any extra text that might be added by extra options passed to B<git log>
+(e.g. C<-p> or C<--name-status>).
 
 =back
 
