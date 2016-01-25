@@ -39,6 +39,7 @@ EXTRA
             author_tz        => '+0200',
             author_name      => 'Philippe Bruhat (BooK)',
             author_email     => 'book@cpan.org',
+            diff_from => undef,
             committer =>
                 'Philippe Bruhat (BooK) <book@cpan.org> 1282408639 +0200',
             committer_name      => 'Philippe Bruhat (BooK)',
@@ -96,6 +97,7 @@ MESSAGE
             author_tz        => '-0200',
             author_name      => 'Philippe Bruhat (BooK)',
             author_email     => 'book@cpan.org',
+            diff_from => undef,
             committer =>
                 'Philippe Bruhat (BooK) <book@cpan.org> 1282050772 -0200',
             committer_name      => 'Philippe Bruhat (BooK)',
@@ -143,6 +145,7 @@ BODY
             author_gmtime    => '1282387388',
             author_localtime => '1282416188',
             author_tz        => '+0800',
+            diff_from => undef,
             committer =>
                 'Philippe Bruhat (BooK) <book@cpan.org> 1282389828 +0800',
             committer_name      => 'Philippe Bruhat (BooK)',
