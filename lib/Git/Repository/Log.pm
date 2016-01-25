@@ -134,6 +134,15 @@ The commit signature.
 
 The mergetag information.
 
+=item diff_from
+
+The commit from which the diff was taken.
+
+This is the extra C<from> information on the commit header that is
+added by B<git> when the log contains a diff (using the C<-p> or
+C<--name-status> option). In this case, C<git log> may show the same
+commit several times.
+
 =item extra
 
 Any extra text that might be added by extra options passed to B<git log>.
