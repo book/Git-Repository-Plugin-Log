@@ -9,6 +9,8 @@ use Git::Repository 'Log';
 
 has_git('1.5.1');
 
+my $num_tests;
+
 # test data
 {
     our %commit;
@@ -34,7 +36,7 @@ has_git('1.5.1');
         );
     }
 
-    plan tests => 9 * scalar keys %commit;
+    $num_tests = 9 * scalar keys %commit;
 }
 
 # setup the environment
@@ -65,8 +67,32 @@ for my $line (@refs) {
 }
 
 # test!
+my @merges;
 my $iter = $r->log('--all');
 while ( my $log = $iter->next ) {
     check_commit($log);
+
+    # record merge commits for the diff_from test
+    if ( $log->parent > 1 ) {
+        push @merges, [ $log->commit, $log->parent ];
+    }
 }
 
+# test diff_from
+for my $merge ( @merges ) {
+
+    # weed out empty diffs
+    my $commit = shift @$merge;
+    $merge = [ grep $r->run( diff => $commit, $_ ) ne '', @$merge ];
+
+    # update test total
+    $num_tests += @$merge;
+
+    # only test the commits with a defined diff_from
+    $iter = $r->log( qw( -m --name-status -1 ), $commit );
+    while ( my $log = $iter->next ) {
+        is( $log->diff_from, shift @$merge, "$commit diff_from" );
+    }
+}
+
+done_testing($num_tests);
