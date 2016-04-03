@@ -3,12 +3,13 @@ use warnings;
 use lib 't';
 use Test::More;
 use Test::Git;
+use Test::Requires::Git;
 use File::Temp qw( tempdir );
 use File::Spec;
 use Cwd qw( cwd abs_path );
 use Git::Repository;
 
-has_git('1.5.0.rc1');
+test_requires_git '1.5.0.rc1';
 
 my $version = Git::Repository->version;
 diag "git version $version";

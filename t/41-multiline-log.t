@@ -5,9 +5,10 @@ use Test::More;
 use File::Spec;
 use Cwd qw( cwd );
 use Test::Git;
+use Test::Requires::Git;
 use Git::Repository 'Log';
 
-has_git('1.5.1');
+test_requires_git '1.5.1';
 
 my $num_tests;
 
