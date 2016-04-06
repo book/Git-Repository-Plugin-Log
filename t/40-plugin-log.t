@@ -190,6 +190,6 @@ BEGIN {
 }
 for my $badopt (@badopts) {
     ok( !eval { $r->log(@$badopt) }, "bad options: @$badopt" );
-    like( $@, qr/^log\(\) cannot parse @$badopt/, '.. expected error' );
+    like( $@, qr/^log\(\) cannot parse @$badopt/, '... expected error' );
 }
 
