@@ -7,7 +7,7 @@ consult the changelog for that distribution.
 
 {{$NEXT}}
 
-1.313 Tue Jan 26 2016
+1.313 2016-01-26 BOOK
     [ENHANCEMENTS]
     - Add some more unsupported options to Git::Repository::Log::Iterator
       constructor's blacklist (BJAKUBSKI, via the January 2016 CPAN PRC)
@@ -24,7 +24,7 @@ consult the changelog for that distribution.
       which brought several contributions to this release.
       Check out http://cpan-prc.org/ and join the fun!
 
-1.312 Wed Jul 23 2014
+1.312 2014-07-23 BOOK
     [ENHANCEMENTS]
     - new Git::Repository::Log::Iterator constructors new_from_fh() and
       new_from_file() to enable dealing with log stream directly
@@ -33,19 +33,19 @@ consult the changelog for that distribution.
     [TESTS]
     - update the test bundle
 
-1.311 Fri Apr 25 2014
+1.311 2014-04-25 BOOK
     [TESTS]
     - output the git version, to help debug FAIL reports
     - change the test bundle to use "SJIS" instead of "shift-jis" encoding
     [DOCUMENTATION]
     - simplify the titles when documenting methods and functions
 
-1.310 Tue Nov 5 2013
+1.310 2013-11-05 BOOK
     [ENHANCEMENTS]
     - Git::Repository::Log now properly handles commits where the
       author or committer name is empty
 
-1.309 Sun Nov 3 2013
+1.309 2013-11-03 BOOK
     [ENHANCEMENTS]
     - the mergetag key is now an array reference, to support
       commits with multiple mergetag headers
