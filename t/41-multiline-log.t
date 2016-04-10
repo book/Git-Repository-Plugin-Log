@@ -53,19 +53,10 @@ my %env = (
 );
 
 # first create a new empty repository
-my $r = test_repository( git => { env => \%env } );
-
-# now load the bundle
-my @refs = $r->run(
-    bundle => 'unbundle',
-    File::Spec->catfile( cwd(), qw( t test.bundle ) )
+my $r = test_repository(
+    git   => { env => \%env },
+    clone => [ File::Spec->catfile( cwd(), qw( t test.bundle ) ) ],
 );
-
-# and update the refs
-for my $line (@refs) {
-    my ( $sha1, $ref ) = split / /, $line;
-    $r->run( 'update-ref', $ref => $sha1 );
-}
 
 # test!
 my @merges;
