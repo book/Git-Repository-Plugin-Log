@@ -7,6 +7,13 @@ consult the changelog for that distribution.
 
 {{$NEXT}}
 
+1.314 2016-04-10 BOOK
+    [DOCUMENTATION]
+    - Updated release header lines to follow CPAN::Changes::Spec
+    [TESTS]
+    - Replaced t/00-load.t by the Test::Compile dzil plugin
+    - Use Test::Requires::Git instead of has_git
+
 1.313 2016-01-26 BOOK
     [ENHANCEMENTS]
     - Add some more unsupported options to Git::Repository::Log::Iterator
